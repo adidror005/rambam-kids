@@ -1,6 +1,6 @@
 """Generate and check kid-friendly Mishneh Torah adaptations.
 
-Default: generate only missing kids_hebrew/kids_english fields. --regenerate
+Default: generate only missing kids_hebrew/kids_english fields. --segment targets one halacha. --regenerate
 refreshes older, attributable AI drafts; approved or untracked text is protected.
 
 Every new generation receives a second, source-based AI nuance check by default.
@@ -415,6 +415,8 @@ def list_flags(args) -> int:
     for path in (p for p in select_paths(args) if p.is_file()):
         doc = load_json(path)
         for index, segment in sorted(doc.get("segments", {}).items(), key=lambda pair: int(pair[0])):
+            if args.segment is not None and int(index) != args.segment:
+                continue
             ref = segment.get("ref") or f"{doc['ref']}:{index}"
             meta = segment.get("ai_generation") or {}
             for field in ((args.only,) if args.only else TARGETS):
@@ -446,6 +448,8 @@ def run(args, client=None) -> tuple[int, int, int]:
         for path in paths:
             doc = load_json(path)
             for index, segment in sorted(doc.get("segments", {}).items(), key=lambda item: int(item[0])):
+                if args.segment is not None and int(index) != args.segment:
+                    continue
                 fields = (fields_to_audit(segment, args.only, args.force_audit)
                           if args.audit_existing else
                           fields_to_generate(segment, args.only, args.regenerate,
@@ -572,6 +576,7 @@ def main(argv=None):
                         help="List previously flagged passages; no API calls or writes")
     parser.add_argument("--slug", help="Book slug (default: mishneh-torah-slaves)")
     parser.add_argument("--chapter", type=int, help="One chapter in the selected book")
+    parser.add_argument("--segment", type=int, help="One specific halacha within --chapter")
     parser.add_argument("--only", choices=TARGETS, help="Select one adaptation language")
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--regenerate", action="store_true", help="Refresh older AI drafts")
@@ -594,6 +599,8 @@ def main(argv=None):
     args = parser.parse_args(argv)
     if args.all and (args.slug or args.chapter):
         parser.error("--all cannot be combined with --slug or --chapter")
+    if args.segment is not None and (args.segment < 1 or args.chapter is None or args.all):
+        parser.error("--segment requires --chapter and must be >= 1 (without --all)")
     if args.force_audit and not args.audit_existing:
         parser.error("--force-audit requires --audit-existing")
     if args.audit_existing and args.no_verify:
