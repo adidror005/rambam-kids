@@ -9,147 +9,259 @@
     "1": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:1",
       "original_hebrew": "אֵין כֹּהֵן גָּדוֹל נִכְנָס לְקֹדֶשׁ הַקָּדָשִׁים אֶלָּא מִיּוֹם הַכִּפּוּרִים לְיוֹם הַכִּפּוּרִים. וְכֹהֵן הֶדְיוֹט נִכְנָס לַקֹּדֶשׁ לַעֲבוֹדָה בְּכָל יוֹם:",
-      "kids_hebrew": "הַכֹּהֵן הַגָּדוֹל, שֶׁהוּא הַכֹּהֵן הֶחָשׁוּב בְּיוֹתֵר, נִכְנָס לְקֹדֶשׁ הַקָּדָשִׁים, שֶׁהוּא הַחֵלֶק הַפְּנִימִי בְּיוֹתֵר בַּמִּקְדָּשׁ, רַק בְּיוֹם הַכִּפּוּרִים, פַּעַם אַחַת בַּשָּׁנָה. כֹּהֵן רָגִיל, שֶׁנִּקְרָא כֹּהֵן הֶדְיוֹט, נִכְנָס לַקֹּדֶשׁ, שֶׁהוּא הַחֵלֶק הַחִיצוֹנִי שֶׁל הַמִּקְדָּשׁ, בְּכָל יוֹם, אֲבָל רַק כְּדֵי לַעֲשׂוֹת אֶת עֲבוֹדַת הַמִּקְדָּשׁ.",
-      "kids_english": "When the Temple stood, the Kohen Gadol, the High Priest, could enter the Kodesh HaKodashim, the Holy of Holies, the innermost room, only on Yom Kippur, once a year. A regular priest, called a Kohen Hedyot, could enter the Kodesh, the outer holy room, every day, but only to perform the Temple service.",
+      "kids_hebrew": "הַכֹּהֵן הַגָּדוֹל אֵינוֹ נִכְנָס לְקֹדֶשׁ הַקָּדָשִׁים, שֶׁהוּא הַחֵלֶק הַפְּנִימִי בְּיוֹתֵר. הוּא נִכְנָס לְשָׁם רַק מִיּוֹם הַכִּפּוּרִים לְיוֹם הַכִּפּוּרִים. זֶה אוֹמֵר פַּעַם אַחַת בַּשָּׁנָה, בְּיוֹם הַכִּפּוּרִים.\n\nכֹּהֵן הֶדְיוֹט הוּא כֹּהֵן רָגִיל. הוּא נִכְנָס לַקֹּדֶשׁ כְּדֵי לַעֲשׂוֹת אֶת הָעֲבוֹדָה. הוּא רַשַּׁאי לָבוֹא לְשָׁם לַעֲבוֹדָה בְּכָל יוֹם.",
+      "kids_english": "The Kohen Gadol, the special High Priest, does not enter the Kodesh HaKodashim, the innermost holy room. He enters there only from one Yom Kippur to the next. That means only once a year, on Yom Kippur.\n\nA Kohen Hedyot is a regular priest. He enters the Kodesh, the outer holy area, in order to do the avodah, the special Temple service. He may come there for the avodah every day.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:44:29.230312+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:36:46.442994+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:36:46.443033+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:44:29.230345+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:36:46.443040+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:36:46.443044+00:00"
+          }
         }
       }
     },
     "2": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:2",
       "original_hebrew": "וְהֻזְהֲרוּ כָּל הַכֹּהֲנִים שֶׁלֹּא יִכָּנְסוּ לַקֹּדֶשׁ אוֹ לְקֹדֶשׁ הַקָּדָשִׁים שֶׁלֹּא בִּשְׁעַת עֲבוֹדָה שֶׁנֶּאֱמַר (ויקרא טז ב) \"וְאַל יָבֹא בְכָל עֵת אֶל הַקֹּדֶשׁ\" זֶה קֹדֶשׁ הַקָּדָשִׁים (ויקרא טז ב) \"מִבֵּית לַפָּרֹכֶת\" לְהַזְהִיר עַל כָּל הַבַּיִת:",
-      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, כָּל הַכֹּהֲנִים הֻזְהֲרוּ שֶׁלֹּא לְהִכָּנֵס לַחֲדָרִים הַקְּדוֹשִׁים בִּסְתָם. אָסוּר הָיָה לְהִכָּנֵס לַקֹּדֶשׁ, שֶׁהוּא הַחֵלֶק הַחִיצוֹנִי, וְאָסוּר הָיָה לְהִכָּנֵס לְקֹדֶשׁ הַקֳּדָשִׁים, שֶׁהוּא הַחֵלֶק הַפְּנִימִי בְּיוֹתֵר, אֶלָּא רַק בִּשְׁעַת הָעֲבוֹדָה, כְּלוֹמַר רַק כְּדֵי לַעֲשׂוֹת אֶת הַתַּפְקִיד הַמְיֻחָד שֶׁל הַמִּקְדָּשׁ. כָּךְ כָּתוּב בַּתּוֹרָה: ״וְאַל יָבֹא בְכָל עֵת אֶל הַקֹּדֶשׁ מִבֵּית לַפָּרֹכֶת״. הַהֶסְבֵּר הוּא שֶׁהַמִּלִּים ״אֶל הַקֹּדֶשׁ״ מְדַבְּרוֹת עַל קֹדֶשׁ הַקֳּדָשִׁים, וְהַמִּלִּים ״מִבֵּית לַפָּרֹכֶת״, כְּלוֹמַר מֵאֲחוֹרֵי הַוִּילוֹן שֶׁהִפְרִיד בֵּין הַחֲדָרִים, מְלַמְּדוֹת שֶׁהָאַזְהָרָה נוֹגַעַת לְכָל הַבַּיִת, גַּם לַקֹּדֶשׁ.",
-      "kids_english": "When the Temple stood, all the kohanim, the priests, were warned not to enter the holy rooms just at any time. They were forbidden to enter the Kodesh, the outer holy room, and also forbidden to enter the Kodesh HaKodashim, the innermost holy room, except at the time of the avodah, meaning only in order to perform a special Temple duty there. As the Torah says, He shall not come at all times into the holy place from inside the curtain (Leviticus 16:2). Maimonides explains that the words into the holy place refer to the Kodesh HaKodashim, and the words from inside the curtain, meaning from behind the parochet, the curtain that separated the rooms, teach that the warning applies to the whole house, including the Kodesh.",
+      "kids_hebrew": "כָּל הַכֹּהֲנִים קִבְּלוּ אַזְהָרָה מִן הַתּוֹרָה. אָסוּר לָהֶם לְהִכָּנֵס לַקֹּדֶשׁ אוֹ לְקֹדֶשׁ הַקֳּדָשִׁים כְּשֶׁלֹּא בִּשְׁעַת עֲבוֹדָה.\n\nקֹדֶשׁ הַקֳּדָשִׁים הוּא הַחֵלֶק הַפְּנִימִי בְּיוֹתֵר. הַקֹּדֶשׁ הוּא הַחֵלֶק שֶׁלִּפְנֵי הַפָּרֹכֶת, בְּתוֹךְ אוֹתוֹ בַּיִת.\n\nהַתּוֹרָה אוֹמֶרֶת: ״וְאַל יָבֹא בְכָל עֵת אֶל הַקֹּדֶשׁ״. ״אֶל הַקֹּדֶשׁ״ כָּאן הוּא קֹדֶשׁ הַקֳּדָשִׁים. וְהַמִּלִּים ״מִבֵּית לַפָּרֹכֶת״ מְלַמְּדוֹת שֶׁהָאַזְהָרָה הִיא עַל כָּל הַבַּיִת.",
+      "kids_english": "All the kohanim, the priests, received a warning from the Torah. They must not enter the Kodesh or the Kodesh HaKodashim when it is not the time of avodah, the Temple service.\n\nThe Kodesh HaKodashim is the innermost and holiest part. The Kodesh is the area in front of the parochet, the curtain, inside that same building.\n\nThe Torah says: “he shall not come at all times into the Kodesh.” Here “the Kodesh” means the Kodesh HaKodashim. The words “from within the parochet” teach that the warning covers the whole House.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:45:11.220308+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:38:03.761046+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:38:03.761069+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:45:11.220324+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:38:03.761075+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:38:03.761078+00:00"
+          }
         }
       }
     },
     "3": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:3",
       "original_hebrew": "כֹּהֵן שֶׁנִּכְנַס לְקֹדֶשׁ הַקָּדָשִׁים בִּשְׁאָר יְמוֹת הַשָּׁנָה בֵּין כֹּהֵן הֶדְיוֹט בֵּין כֹּהֵן גָּדוֹל אוֹ כֹּהֵן גָּדוֹל שֶׁנִּכְנַס לוֹ בְּיוֹם הַכִּפּוּרִים שֶׁלֹּא בִּשְׁעַת הָעֲבוֹדָה חַיָּב מִיתָה בִּידֵי שָׁמַיִם שֶׁנֶּאֱמַר (ויקרא טז ב) \"וְלֹא יָמוּת\". וְכַמָּה פְּעָמִים הוּא נִכְנָס לְשָׁם בְּיוֹם הַכִּפּוּרִים אַרְבַּע כְּמוֹ שֶׁיִּתְבָּאֵר בִּמְקוֹמוֹ. וְאִם נִכְנָס חֲמִישִׁית חַיָּב מִיתָה בִּידֵי שָׁמַיִם:",
-      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיָה חֶדֶר פְּנִימִי קָדוֹשׁ בְּיוֹתֵר שֶׁנִּקְרָא קֹדֶשׁ הַקֳּדָשִׁים. כֹּהֵן רָגִיל, שֶׁנִּקְרָא כֹּהֵן הֶדְיוֹט, אוֹ הַכֹּהֵן הַגָּדוֹל, שֶׁנִּכְנַס לְשָׁם בְּיוֹם רָגִיל שֶׁאֵינוֹ יוֹם הַכִּפּוּרִים, חַיָּב מִיתָה בִּידֵי שָׁמַיִם. זֹאת אוֹמֶרֶת שֶׁזֶּה אִסּוּר חָמוּר מְאֹד שֶׁעָנְשׁוֹ מִן הַשָּׁמַיִם, וְלֹא שֶׁבֵּית הַדִּין הוֹרֵג אוֹתוֹ, כְּמוֹ שֶׁכָּתוּב בַּתּוֹרָה: ״וְלֹא יָמוּת״. גַּם בְּיוֹם הַכִּפּוּרִים עַצְמוֹ, הַכֹּהֵן הַגָּדוֹל רַשַּׁאי לְהִכָּנֵס לְשָׁם רַק בִּשְׁעַת הָעֲבוֹדָה הַמְיֻחֶדֶת שֶׁל הַיּוֹם. אִם הוּא נִכְנַס שֶׁלֹּא בִּשְׁעַת הָעֲבוֹדָה, הוּא חַיָּב מִיתָה בִּידֵי שָׁמַיִם. בְּיוֹם הַכִּפּוּרִים הוּא נִכְנַס לְשָׁם אַרְבַּע פְּעָמִים בִּלְבָד, כְּמוֹ שֶׁיִּתְבָּאֵר בְּהֶמְשֵׁךְ הַהֲלָכוֹת. אִם הוּא נִכְנַס פַּעַם חֲמִישִׁית, הוּא חַיָּב מִיתָה בִּידֵי שָׁמַיִם.",
-      "kids_english": "In the time of the Temple, there was an innermost, most holy room called the Kodesh HaKodashim, the Holy of Holies. If any priest enters there on an ordinary day of the year — whether an ordinary priest, called a kohen hedyot, or the High Priest, called the kohen gadol — he breaks a very serious prohibition. He becomes liable to mitah bidei shamayim, death by Heaven, which means a punishment from God, not that a human court puts him to death. This is as the Torah says, 'and he shall not die.' Even on Yom Kippur itself, the Day of Atonement, the High Priest may enter there only at the time of the special Yom Kippur service. If he enters when it is not the time of that service, he is liable to death by Heaven. On Yom Kippur he enters there exactly four times, as will be explained in the later laws. If he enters a fifth time, he is liable to death by Heaven.",
+      "kids_hebrew": "קֹדֶשׁ הַקֳּדָשִׁים הוּא הַחֵלֶק הַפְּנִימִי וְהַקָּדוֹשׁ בְּיוֹתֵר בְּבֵית הַמִּקְדָּשׁ. הַדִּין הַזֶּה נָהַג כְּשֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם. מִי שֶׁנִּכְנַס לְשָׁם שֶׁלֹּא כַּדִּין חַיָּב מִיתָה בִּידֵי שָׁמַיִם, שֶׁהוּא עֹנֶשׁ מִשָּׁמַיִם וְלֹא עֹנֶשׁ שֶׁל בֵּית דִּין.\n\nבִּשְׁאָר יְמוֹת הַשָּׁנָה הָיָה אָסוּר לְכָל כֹּהֵן לְהִכָּנֵס לְקֹדֶשׁ הַקֳּדָשִׁים. הַדִּין הָיָה שָׁוֶה בֵּין לְכֹהֵן הֶדְיוֹט, שֶׁהוּא כֹּהֵן רָגִיל, וּבֵין לְכֹהֵן גָּדוֹל. מִי שֶׁנִּכְנַס חַיָּב מִיתָה בִּידֵי שָׁמַיִם, כְּמוֹ שֶׁנֶּאֱמַר בַּתּוֹרָה ״וְלֹא יָמוּת״.\n\nבְּיוֹם הַכִּפּוּרִים הַדִּין שׁוֹנֶה מְעַט. כֹּהֵן גָּדוֹל שֶׁנִּכְנַס לְקֹדֶשׁ הַקֳּדָשִׁים שֶׁלֹּא בִּשְׁעַת הָעֲבוֹדָה חַיָּב מִיתָה בִּידֵי שָׁמַיִם. שְׁעַת הָעֲבוֹדָה הִיא הַזְּמַן שֶׁל הָעֲבוֹדָה הַמְיֻחֶדֶת שֶׁל יוֹם הַכִּפּוּרִים.\n\nבְּיוֹם הַכִּפּוּרִים הַכֹּהֵן הַגָּדוֹל הָיָה נִכְנָס לְשָׁם אַרְבַּע פְּעָמִים. אֶת הַפְּרָטִים שֶׁל אַרְבַּע הַכְּנִיסוֹת הָרַמְבַּ״ם יַסְבִּיר בְּמָקוֹם אַחֵר. אִם הוּא נִכְנַס פַּעַם חֲמִישִׁית, הוּא חַיָּב מִיתָה בִּידֵי שָׁמַיִם.",
+      "kids_english": "The Holy of Holies, called Kodesh HaKodashim, was the innermost and holiest room in the Beit HaMikdash, the Temple. This law applied when the Beit HaMikdash stood. A kohen who entered there in a forbidden way was liable to mitah bidei Shamayim, which means a punishment from Heaven and not a punishment given by a human court.\n\nDuring the rest of the year, no kohen was allowed to enter the Kodesh HaKodashim. The rule was the same for a kohen hedyot, an ordinary kohen, and for the Kohen Gadol, the High Priest. A kohen who entered was liable to mitah bidei Shamayim, as the Torah says, “velo yamut,” that he should not die.\n\nOn Yom Kippur the rule was a little different. A Kohen Gadol who entered the Kodesh HaKodashim when it was not the time of the avodah was liable to mitah bidei Shamayim. The time of the avodah means the time of the special Temple service of Yom Kippur.\n\nOn Yom Kippur the Kohen Gadol entered there four times. The Rambam will explain the details of these four entries in its proper place. If he entered a fifth time, he was liable to mitah bidei Shamayim.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:46:28.379590+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:40:41.139936+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:40:41.139984+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:46:28.379613+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:40:41.139997+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:40:41.140006+00:00"
+          }
         }
       }
     },
     "4": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:4",
       "original_hebrew": "וְהַנִּכְנָס לַקֹּדֶשׁ חוּץ לְקֹדֶשׁ הַקָּדָשִׁים שֶׁלֹּא לַעֲבוֹדָה אוֹ לְהִשְׁתַּחֲווֹת בֵּין הֶדְיוֹט בֵּין גָּדוֹל לוֹקֶה. וְאֵינוֹ חַיָּב מִיתָה שֶׁנֶּאֱמַר (ויקרא טז ב) \"אֶל פְּנֵי הַכַּפֹּרֶת\" (ויקרא טז ב) \"וְלֹא יָמוּת\". עַל קֹדֶשׁ הַקָּדָשִׁים בְּמִיתָה וְעַל שְׁאָר הַבַּיִת בְּלָאו וְלוֹקֶה:",
-      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיוּ שְׁנֵי חֲדָרִים קְדוֹשִׁים: הַקֹּדֶשׁ, שֶׁהוּא הַחֶדֶר הַחִיצוֹנִי, וְקֹדֶשׁ הַקָּדָשִׁים, שֶׁהוּא הַחֶדֶר הַפְּנִימִי בְּיוֹתֵר. מִי שֶׁנִּכְנַס לַקֹּדֶשׁ בְּלִי סִבָּה מֻתֶּרֶת, כְּלוֹמַר לֹא כְּדֵי לַעֲשׂוֹת עֲבוֹדָה, שֶׁהִיא עֲבוֹדַת הַכֹּהֲנִים בַּמִּקְדָּשׁ, וְלֹא כְּדֵי לְהִשְׁתַּחֲווֹת, עוֹבֵר עַל אִסּוּר וּמַגִּיעַ לוֹ עֹנֶשׁ מַלְקוֹת. הַדִּין הַזֶּה שָׁוֶה לְכָל כֹּהֵן, בֵּין כֹּהֵן רָגִיל, שֶׁנִּקְרָא הֶדְיוֹט, וּבֵין הַכֹּהֵן הַגָּדוֹל. הוּא אֵינוֹ חַיָּב מִיתָה עַל כָּךְ, כִּי הַתּוֹרָה קָשְׁרָה אֶת עֹנֶשׁ הַמִּיתָה רַק לִכְנִיסָה לִפְנֵי הַכַּפֹּרֶת, שֶׁהִיא בְּקֹדֶשׁ הַקָּדָשִׁים, כְּמוֹ שֶׁכָּתוּב וְלֹא יָמוּת. כָּךְ: מִי שֶׁנִּכְנַס לְקֹדֶשׁ הַקָּדָשִׁים שֶׁלֹּא כַּדִּין חַיָּב מִיתָה, וּמִי שֶׁנִּכְנַס לִשְׁאָר הַבַּיִת שֶׁלֹּא לַעֲבוֹדָה אוֹ לְהִשְׁתַּחֲוָיָה עוֹבֵר בְּלָאו וְלוֹקֶה.",
-      "kids_english": "When the Temple stood, it had an outer holy room called the Kodesh and an innermost room called the Kodesh HaKodashim, the Holy of Holies. A priest was allowed to enter the Kodesh only to do avodah, the Temple service, or to bow down in worship, called hishtachavayah. If he entered the Kodesh without one of those two reasons, just to be there, he broke a prohibition and received lashes, a punishment given by the court. This law was the same for an ordinary priest, called a hedyot, and for the Kohen Gadol, the High Priest. He was not liable to death for entering the Kodesh in this way, because the Torah connects the death penalty only to coming before the kaporet, the cover in the Holy of Holies, as it says, and he shall not die. In short: improper entry into the Kodesh HaKodashim brings liability to death, while improper entry into the rest of the Temple building breaks a negative commandment and brings lashes.",
+      "kids_hebrew": "הָרַמְבָּם מְלַמֵּד דִּין חָשׁוּב עַל הַכְּנִיסָה לְבֵית הַמִּקְדָּשׁ. אָסוּר לְהִכָּנֵס לַחֵלֶק שֶׁנִּקְרָא קֹדֶשׁ, שֶׁהוּא מִחוּץ לְקֹדֶשׁ הַקֳּדָשִׁים, אִם הַכְּנִיסָה הִיא שֶׁלֹּא לַעֲבוֹדָה וְשֶׁלֹּא לְהִשְׁתַּחֲוָיָה. מִי שֶׁנִּכְנָס כָּךְ עוֹבֵר עַל לָאו וְלוֹקֶה.\n\nקֹדֶשׁ הוּא מִבְנֵה הַמִּקְדָּשׁ שֶׁמִּחוּץ לַחֵלֶק הַפְּנִימִי בְּיוֹתֵר. הַחֵלֶק הַפְּנִימִי בְּיוֹתֵר נִקְרָא קֹדֶשׁ הַקֳּדָשִׁים. עֲבוֹדָה הִיא עֲבוֹדַת הַמִּקְדָּשׁ, וְהִשְׁתַּחֲוָיָה הִיא כְּרִיעָה עַד הָאָרֶץ לִכְבוֹד ה׳.\n\nהַדִּין הַזֶּה שֶׁל מַלְקוֹת נֶאֱמַר בֵּין עַל הֶדְיוֹט וּבֵין עַל גָּדוֹל. דַּרְגָּתוֹ שֶׁל הָאָדָם אֵינָהּ מְשַׁנָּה אֶת הָעֹנֶשׁ בְּמִקְרֶה זֶה.\n\nיֵשׁ הֶבְדֵּל גָּדוֹל בֵּין שְׁנֵי הַמְּקוֹמוֹת. מִי שֶׁנִּכְנָס לְקֹדֶשׁ הַקֳּדָשִׁים חַיָּב מִיתָה. מִי שֶׁנִּכְנָס לִשְׁאָר הַבַּיִת שֶׁלֹּא לַעֲבוֹדָה וְשֶׁלֹּא לְהִשְׁתַּחֲוָיָה אֵינוֹ חַיָּב מִיתָה, אֶלָּא לוֹקֶה. הַפָּסוּק אוֹמֵר ״אֶל פְּנֵי הַכַּפֹּרֶת... וְלֹא יָמוּת״, לְלַמֵּד שֶׁעֹנֶשׁ הַמָּוֶת נֶאֱמַר רַק עַל הַכְּנִיסָה לִפְנֵי הַכַּפֹּרֶת שֶׁבְּקֹדֶשׁ הַקֳּדָשִׁים.",
+      "kids_english": "The Rambam teaches an important rule about entering the Beit HaMikdash, the Holy Temple. It is forbidden to enter the part called the Kodesh, the Sanctuary, which is outside the Kodesh HaKodashim, the Holy of Holies, if the person enters not for avodah and not for hishtachavayah. A person who enters in that way breaks a lav, a negative commandment, and receives lashes.\n\nThe Kodesh is the Temple building outside the innermost part. The innermost part is called the Kodesh HaKodashim. Avodah is the special Temple service, and hishtachavayah is bowing all the way to the ground to honor Hashem.\n\nThis law of lashes applies both to a hedyot and to a gadol. A person’s rank does not change the punishment in this case.\n\nThere is a big difference between the two places. A person who enters the Kodesh HaKodashim is liable to death. A person who enters the rest of the building, not for avodah and not for hishtachavayah, is not liable to death but receives lashes. The verse says, “el pnei hakaporet… velo yamut,” “to the face of the kaporet… and he shall not die,” to teach that the death penalty was said only about entering before the kaporet in the Kodesh HaKodashim.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:47:24.762234+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:43:06.665731+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:43:06.665763+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:47:24.762260+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:43:06.665774+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:43:06.665782+00:00"
+          }
         }
       }
     },
     "5": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:5",
       "original_hebrew": "כֹּהֵן שֶׁיָּצָא מִן הַמִּקְדָּשׁ בִּשְׁעַת הָעֲבוֹדָה בִּלְבַד חַיָּב מִיתָה בֵּין כֹּהֵן גָּדוֹל בֵּין כֹּהֵן הֶדְיוֹט שֶׁנֶּאֱמַר (ויקרא י ז) \"וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵצְאוּ פֶּן תָּמֻתוּ\". כְּלוֹמַר לֹא תָּנִיחוּ עֲבוֹדָה וְתֵצְאוּ מְבֹהָלִים וּדְחוּפִים מִפְּנֵי גְּזֵרָה זוֹ. וְכֵן זֶה שֶׁנֶּאֱמַר בְּכֹהֵן גָּדוֹל (ויקרא כא יב) \"וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא\" אֵינוֹ אֶלָּא בִּשְׁעַת הָעֲבוֹדָה בִּלְבַד שֶׁלֹּא יָנִיחַ עֲבוֹדָתוֹ וְיֵצֵא:",
-      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, כֹּהֵן שֶׁהִתְחִיל לַעֲשׂוֹת עֲבוֹדָה, כְּלוֹמַר תַּפְקִיד קָדוֹשׁ בַּמִּקְדָּשׁ, אָסוּר הָיָה לוֹ לַעֲזֹב אֶת הַמִּקְדָּשׁ בְּאֶמְצַע הָעֲבוֹדָה. אִם הוּא עָזַב, הוּא הָיָה חַיָּב מִיתָה. הַדִּין הַזֶּה נֶאֱמַר גַּם עַל הַכֹּהֵן הַגָּדוֹל וְגַם עַל כֹּהֵן רָגִיל, שֶׁנִּקְרָא כֹּהֵן הֶדְיוֹט. הַתּוֹרָה אָמְרָה: \"וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵצְאוּ פֶּן תָּמֻתוּ\". כַּוָּנַת הַפָּסוּק הִיא: אַל תַּפְסִיקוּ אֶת הָעֲבוֹדָה וְאַל תֵּצְאוּ בְּבֶהָלָה וּבִדְחִיפוּת מִפְּנֵי צָרָה שֶׁקָּרְתָה. גַּם הַפָּסוּק שֶׁנֶּאֱמַר עַל הַכֹּהֵן הַגָּדוֹל, \"וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא\", מְדַבֵּר רַק עַל שְׁעַת הָעֲבוֹדָה: שֶׁלֹּא יַעֲזֹב אֶת עֲבוֹדָתוֹ וְיֵצֵא.",
-      "kids_english": "In the time of the Temple, there was a strict Torah law for a kohen, a priest, who had begun the avodah, the holy service in the Sanctuary. He was forbidden to abandon his service and leave the Sanctuary in the middle of the service, and only then. If he left at that time, he was liable to death. This rule was the same for both the kohen gadol, the High Priest, and a kohen hedyot, an ordinary priest. The Torah says: \"You shall not go out from the entrance of the Ohel Moed, the Tent of Meeting, lest you die.\" This means: do not stop the service and rush out in panic and haste because a terrible decree has happened. The verse said about the kohen gadol, \"He shall not go out from the Sanctuary,\" also means only this: during the service he must not leave his avodah and go out.",
+      "kids_hebrew": "יֵשׁ דִּין מְיֻחָד לַכֹּהֲנִים שֶׁעוֹבְדִים בַּמִּקְדָּשׁ.\n\nאָסוּר לַכֹּהֵן לַעֲזֹב אֶת הַמִּקְדָּשׁ וְלָצֵאת הַחוּצָה בְּשָׁעָה שֶׁהוּא עוֹסֵק בָּעֲבוֹדָה.\n\nהַדִּין הַזֶּה חָל עַל כָּל כֹּהֵן.\n\nהוּא חָל בֵּין עַל כֹּהֵן גָּדוֹל וּבֵין עַל כֹּהֵן הֶדְיוֹט, שֶׁהוּא כֹּהֵן רָגִיל.\n\nמִי שֶׁיּוֹצֵא כָּךְ חַיָּב מִיתָה.\n\nחָשׁוּב לָדַעַת: חִיּוּב הַמִּיתָה הוּא רַק בִּשְׁעַת הָעֲבוֹדָה בִּלְבַד.\n\nזֶהוּ פֵּרוּשׁ הַפָּסוּק: וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵצְאוּ פֶּן תָּמֻתוּ.\n\nהַכַּוָּנָה הִיא שֶׁלֹּא יַנִּיחַ אֶת הָעֲבוֹדָה וְיָרוּץ הַחוּצָה מִבֹּהָל וְדָחוּף.\n\nגַּם הַפָּסוּק שֶׁנֶּאֱמַר עַל הַכֹּהֵן הַגָּדוֹל, וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא, מְדַבֵּר רַק עַל אוֹתוֹ מַצָּב.\n\nהַכַּוָּנָה הִיא שֶׁלֹּא יַנִּיחַ אֶת עֲבוֹדָתוֹ וְיֵצֵא בָּאֶמְצַע.",
+      "kids_english": "There is a special law for kohanim serving in the Mikdash, the Temple.\n\nA kohen who is busy with the avodah, the Temple service, may not leave the Mikdash and go outside in the middle.\n\nThis law applies to every kohen.\n\nIt applies both to the Kohen Gadol, the High Priest, and to a kohen hedyot, an ordinary priest.\n\nAnyone who leaves in that way is chayav mitah, liable to death.\n\nIt is important to know: this liability to death applies only bish'at ha-avodah, only at the time of the service.\n\nThat is the meaning of the verse: “Do not go out from the entrance of the Tent of Meeting, lest you die.”\n\nIt means the kohen must not abandon his avodah and rush outside, panicked and hurried.\n\nAlso the verse said about the Kohen Gadol: “And from the Mikdash he shall not go out.”\n\nThat too speaks only about the same situation, that he must not abandon his avodah and leave in the middle.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:48:17.491976+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:44:14.151740+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:44:14.151778+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:48:17.491996+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:44:14.151786+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:44:14.151790+00:00"
+          }
         }
       }
     },
     "6": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:6",
       "original_hebrew": "אִם כֵּן מִפְּנֵי מָה נִשְׁנֵית אַזְהָרָה זוֹ בְּכֹהֵן גָּדוֹל. שֶׁכֹּהֵן הֶדְיוֹט שֶׁהָיָה בַּמִּקְדָּשׁ בַּעֲבוֹדָתוֹ וְשָׁמַע שֶׁמֵּת לוֹ מֵת שֶׁהוּא חַיָּב לְהִתְאַבֵּל עָלָיו אַף עַל פִּי שֶׁאֵינוֹ יוֹצֵא מִן הַמִּקְדָּשׁ אֵינוֹ עוֹבֵד מִפְּנֵי שֶׁהוּא אוֹנֵן וְאִם עָבַד וְהוּא אוֹנֵן שֶׁל תּוֹרָה חִלֵּל עֲבוֹדָתוֹ בֵּין בְּקָרְבַּן יָחִיד בֵּין בְּקָרְבַּן צִבּוּר. אֲבָל כֹּהֵן גָּדוֹל עוֹבֵד כְּשֶׁהוּא אוֹנֵן שֶׁנֶּאֱמַר (ויקרא כא יב) \"וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא וְלֹא יְחַלֵּל\" כְּלוֹמַר יֵשֵׁב וְיַעֲבֹד עֲבוֹדָה שֶׁהָיָה עוֹסֵק בָּהּ וְאֵינָהּ מִתְחַלֶּלֶת:",
-      "kids_hebrew": "בִּזְמַן הַמִּקְדָּשׁ, לָמָּה הַתּוֹרָה אָמְרָה אֶת הָאַזְהָרָה הַזֹּאת בִּמְיֻחָד לַכֹּהֵן הַגָּדוֹל? מִפְּנֵי שֶׁיֵּשׁ הֶבְדֵּל בֵּין כֹּהֵן רָגִיל, שֶׁנִּקְרָא כֹּהֵן הֶדְיוֹט, לְבֵין הַכֹּהֵן הַגָּדוֹל, כְּשֶׁהֵם אוֹנְנִים. אוֹנֵן הוּא מִי שֶׁמֵּת לוֹ קָרוֹב מִשְׁפָּחָה קָרוֹב שֶׁצָּרִיךְ לְהִתְאַבֵּל עָלָיו. כֹּהֵן רָגִיל שֶׁהָיָה בַּמִּקְדָּשׁ וְעָסַק בָּעֲבוֹדָה, וְשָׁמַע שֶׁמֵּת לוֹ קָרוֹב כָּזֶה, אַף עַל פִּי שֶׁהוּא אֵינוֹ יוֹצֵא מִן הַמִּקְדָּשׁ, אָסוּר לוֹ לְהַמְשִׁיךְ לַעֲבֹד. וְאִם עָבַד כְּשֶׁהוּא אוֹנֵן מִן הַתּוֹרָה, הוּא מְחַלֵּל אֶת הָעֲבוֹדָה, וְהִיא נִפְסֶלֶת, בֵּין בְּקָרְבָּן שֶׁל אָדָם יָחִיד וּבֵין בְּקָרְבָּן שֶׁל כָּל הַצִּבּוּר. אֲבָל הַכֹּהֵן הַגָּדוֹל מַמְשִׁיךְ לַעֲבֹד גַּם כְּשֶׁהוּא אוֹנֵן, כְּמוֹ שֶׁכָּתוּב וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא וְלֹא יְחַלֵּל. כְּלוֹמַר, הוּא נִשְׁאָר וּמַמְשִׁיךְ בָּעֲבוֹדָה שֶׁהָיָה עוֹסֵק בָּהּ, וְהָעֲבוֹדָה כְּשֵׁרָה וְאֵינָהּ מִתְחַלֶּלֶת.",
-      "kids_english": "In the time of the Temple, why does the Torah give this warning especially for the High Priest, the kohen gadol? Because there is a difference between an ordinary priest, called a kohen hedyot, and the High Priest when they are an onen. An onen is a person whose close family relative died, for whom he must mourn. If an ordinary priest was in the Temple busy with the service, the avodah, and heard that such a relative died, even though he does not leave the Temple, he must stop and he may not serve because he is an onen. If he did serve while he was a Torah-level onen, he spoils that service and it becomes invalid, whether it was a sacrifice of a single person or a sacrifice of the whole community. But the High Priest does serve even when he is an onen, as it says in Leviticus 21:12, he shall not leave the sanctuary and shall not profane. That means he stays and continues the service he was busy with, and his service stays valid and is not profaned.",
+      "kids_hebrew": "לָמָּה הַתּוֹרָה חָזְרָה וְאָמְרָה אֶת הָאַזְהָרָה בִּמְיֻחָד לַכֹּהֵן הַגָּדוֹל? כְּדֵי לְלַמֵּד אוֹתָנוּ הֶבְדֵּל בֵּין כֹּהֵן רָגִיל לְבֵין הַכֹּהֵן הַגָּדוֹל, כְּשֶׁהֵם נַעֲשִׂים אוֹנֵן. אוֹנֵן הוּא כֹּהֵן שֶׁמֵּת לוֹ קָרוֹב, שֶׁהוּא חַיָּב לְהִתְאַבֵּל עָלָיו.\n\nנַחְשֹׁב עַל כֹּהֵן רָגִיל, שֶׁנִּקְרָא כֹּהֵן הֶדְיוֹט. הוּא הָיָה בַּמִּקְדָּשׁ וְעָסַק בַּעֲבוֹדָה, וּפִתְאוֹם שָׁמַע שֶׁמֵּת לוֹ קָרוֹב שֶׁהוּא חַיָּב לְהִתְאַבֵּל עָלָיו. אַף עַל פִּי שֶׁהוּא לֹא יוֹצֵא מִן הַמִּקְדָּשׁ, אָסוּר לוֹ לְהַמְשִׁיךְ לַעֲבֹד, כִּי הוּא נַעֲשָׂה אוֹנֵן.\n\nאִם הוּא עָבַד כְּשֶׁהוּא אוֹנֵן שֶׁל תּוֹרָה, הוּא חִלֵּל אֶת עֲבוֹדָתוֹ. אוֹנֵן שֶׁל תּוֹרָה פֵּרוּשׁוֹ אוֹנֵן לְפִי דִּין הַתּוֹרָה. הַדִּין הַזֶּה נָכוֹן בֵּין בְּקָרְבַּן יָחִיד, שֶׁהוּא קָרְבָּן שֶׁל אָדָם אֶחָד, וּבֵין בְּקָרְבַּן צִבּוּר, שֶׁהוּא קָרְבָּן שֶׁל כָּל הַצִּבּוּר.\n\nאֲבָל הַכֹּהֵן הַגָּדוֹל שׁוֹנֶה מִמֶּנּוּ. גַּם כְּשֶׁהוּא אוֹנֵן הוּא עוֹבֵד בַּמִּקְדָּשׁ. עָלָיו נֶאֱמַר בַּתּוֹרָה, וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא וְלֹא יְחַלֵּל, וַיִּקְרָא כ״א י״ב.\n\nהַפָּסוּק מְלַמֵּד שֶׁהוּא נִשְׁאָר וּמַמְשִׁיךְ לַעֲשׂוֹת אֶת הָעֲבוֹדָה שֶׁהָיָה עוֹסֵק בָּהּ. עֲבוֹדָה זוֹ אֵינָהּ מִתְחַלֶּלֶת, אֶלָּא נִשְׁאֶרֶת קְדוֹשָׁה.",
+      "kids_english": "Why did the Torah repeat this warning especially for the Kohen Gadol, the High Priest? To teach us a difference between a regular kohen and the Kohen Gadol when they become an onen. An onen is a kohen whose close relative has died, for whom he must mourn.\n\nThink about a regular kohen, called a kohen hedyot. He was in the Mikdash, the Sanctuary, busy with the avodah, the Temple service, when he suddenly heard that such a relative had died. Even though he does not leave the Mikdash, he must not continue to serve, because he has become an onen.\n\nIf he did serve while he was an onen shel Torah, an onen by Torah law, he profaned his service. That is called chillel avodato. This is true whether it was a korban yachid, an offering of a single person, or a korban tzibbur, an offering of the whole community.\n\nBut the Kohen Gadol is different. Even when he is an onen, he serves in the Mikdash. About him the Torah says: \"And from the Sanctuary he shall not go out, and he shall not profane\" (Vayikra, Leviticus 21:12).\n\nThis verse teaches that he stays and continues doing the avodah he was already busy with. His service is not profaned, but remains holy.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:49:02.851457+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:46:02.690302+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:46:02.690325+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:49:02.851484+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:46:02.690331+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:46:02.690334+00:00"
+          }
         }
       }
     },
     "7": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:7",
       "original_hebrew": "וּמִנַּיִן שֶׁעֲבוֹדַת הָאוֹנֵן פְּסוּלָה. מִקַּל וָחֹמֶר. אִם בַּעַל מוּם שֶׁאוֹכֵל בְּקָדָשִׁים אִם עָבַד חִלֵּל. אוֹנֵן שֶׁהוּא אָסוּר בְּקָדָשִׁים שֶׁנֶּאֱמַר (דברים כו יד) \"לֹא אָכַלְתִּי בְאֹנִי מִמֶּנּוּ\" דִּין הוּא שֶׁיְּחַלֵּל:",
-      "kids_hebrew": "אֵיךְ אֲנַחְנוּ יוֹדְעִים שֶׁעֲבוֹדָה שֶׁעָשָׂה כֹּהֵן שֶׁהוּא אוֹנֵן פְּסוּלָה? אוֹנֵן הוּא כֹּהֵן שֶׁמֵּת לוֹ קָרוֹב מִשְׁפָּחָה וַעֲדַיִן לֹא קָבְרוּ אוֹתוֹ. אֶת הַדִּין הַזֶּה לוֹמְדִים בְּקַל וָחֹמֶר, כְּלוֹמַר מִדָּבָר קַל לְדָבָר חָמוּר. כָּךְ לוֹמְדִים: כֹּהֵן שֶׁהוּא בַּעַל מוּם, כְּלוֹמַר שֶׁיֵּשׁ לוֹ פְּגָם בַּגּוּף, מֻתָּר לוֹ לֶאֱכֹל מִן הַקָּדָשִׁים, כְּלוֹמַר מִן הַמַּאֲכָלִים הַקְּדוֹשִׁים שֶׁל הַמִּקְדָּשׁ. וְאַף עַל פִּי כֵן, אִם הוּא עָשָׂה עֲבוֹדָה בַּמִּקְדָּשׁ, הוּא חִלֵּל אוֹתָהּ, כְּלוֹמַר הוּא גָּרַם לָהּ לִהְיוֹת פְּסוּלָה. אוֹנֵן אָסוּר אֲפִלּוּ לֶאֱכֹל מִן הַקָּדָשִׁים, כְּמוֹ שֶׁכָּתוּב בַּתּוֹרָה: ׳לֹא אָכַלְתִּי בְאֹנִי מִמֶּנּוּ׳. לָכֵן בְּדִין, כְּלוֹמַר לְפִי הַהִגָּיוֹן, שֶׁאִם הָאוֹנֵן עָשָׂה עֲבוֹדָה, הוּא מְחַלֵּל אוֹתָהּ וְהִיא פְּסוּלָה.",
-      "kids_english": "This is a law about the Temple in Jerusalem. How do we know that avodah, the service in the Temple, done by a kohen who is an onen is pasul, meaning invalid? An onen is a kohen whose close relative has died and has not yet been buried. We learn this with a kal va-chomer, meaning an argument from a lighter case to a stricter case. Here is the learning: A kohen who is a baal mum, meaning he has a blemish on his body, is permitted to eat kodashim, meaning the holy Temple foods. Even so, if he performed the avodah, he made it profaned, meaning he made it invalid. An onen is forbidden even to eat kodashim, as the Torah says in Deuteronomy 26:14, 'I did not eat from it in my mourning.' So by logic, if an onen performed the avodah, he makes it profaned and it is invalid.",
+      "kids_hebrew": "הַדִּין הַמֶּרְכָּזִי הוּא שֶׁעֲבוֹדַת הָאוֹנֵן פְּסוּלָה. זֶהוּ דִּין מִזְּמַן בֵּית הַמִּקְדָּשׁ, עַל כֹּהֵן שֶׁעָבַד בַּמִּקְדָּשׁ בְּשָׁעָה שֶׁהוּא אוֹנֵן. אוֹנֵן הוּא אָדָם שֶׁקְּרוֹבוֹ נִפְטַר וַעֲדַיִן לֹא נִקְבָּר.\n\nהָרַמְבַּם מוֹכִיחַ אֶת הַדִּין בְּקַל וָחֹמֶר. קַל וָחֹמֶר הוּא כָּךְ: אִם כָּךְ הַדִּין בְּמִקְרֶה קַל, בְּוַדַּאי שֶׁכָּךְ הַדִּין בְּמִקְרֶה חָמוּר. עַכְשָׁיו נִרְאֶה אֶת שְׁנֵי הַמִּקְרִים בְּנִפְרָד.\n\nהַמִּקְרֶה הָרִאשׁוֹן הוּא כֹּהֵן שֶׁהוּא בַּעַל מוּם. בַּעַל מוּם הוּא כֹּהֵן שֶׁיֵּשׁ בְּגוּפוֹ פְּגָם. כֹּהֵן כָּזֶה מֻתָּר לֶאֱכֹל קֳדָשִׁים, כְּלוֹמַר מַאֲכָלִים קְדוֹשִׁים שֶׁל הַמִּקְדָּשׁ. אֲבָל אִם הוּא עָבַד בַּמִּקְדָּשׁ, הוּא חִלֵּל אֶת הָעֲבוֹדָה.\n\nהַמִּקְרֶה הַשֵּׁנִי הוּא הָאוֹנֵן. הָאוֹנֵן אָסוּר אֲפִלּוּ לֶאֱכֹל קֳדָשִׁים. כָּךְ כָּתוּב בַּתּוֹרָה בְּסֵפֶר דְּבָרִים: לֹא אָכַלְתִּי בְאֹנִי מִמֶּנּוּ.\n\nלָכֵן הַקַּל וָחֹמֶר אוֹמֵר כָּךְ. אִם בַּעַל מוּם, שֶׁמֻּתָּר לֶאֱכֹל קֳדָשִׁים, מְחַלֵּל כְּשֶׁהוּא עוֹבֵד. בְּוַדַּאי שֶׁאוֹנֵן, שֶׁאָסוּר אֲפִלּוּ לֶאֱכֹל קֳדָשִׁים, דִּין הוּא שֶׁיְּחַלֵּל אִם הוּא עוֹבֵד. לָכֵן עֲבוֹדַת הָאוֹנֵן פְּסוּלָה.",
+      "kids_english": "The main rule is about the Beit HaMikdash, the holy Temple. If a kohen served there while he was an onen, his avodah, his Temple service, is pesulah, meaning it is invalid. An onen is a person whose close relative has died but has not yet been buried.\n\nThe Rambam proves this with a kal vachomer. A kal vachomer is an argument that says: if this is the rule in a lighter case, it is certainly the rule in a stricter case. Now let us look at the two cases separately.\n\nThe first case is a kohen who is a baal mum. A baal mum is a kohen who has a physical blemish in his body. Such a kohen may eat kodashim, the holy foods of the Temple. But if he did the avodah, he was mechallel, he profaned the service.\n\nThe second case is the onen. An onen is forbidden even to eat kodashim. The Torah says this in the book of Devarim: I did not eat from it in my mourning.\n\nSo the kal vachomer works like this. If a baal mum, who may eat kodashim, is mechallel when he serves, then certainly an onen, who may not even eat kodashim, is mechallel when he serves. That is the rule that avodat ha-onen, the service of an onen, is pesulah.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:49:56.198471+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:47:56.674510+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:47:56.674545+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:49:56.198485+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:47:56.674553+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:47:56.674559+00:00"
+          }
         }
       }
     },
@@ -164,13 +276,27 @@
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
           "generated_at": "2026-11-17T06:52:33.386555+00:00",
-          "review_status": "needs_review"
+          "review_status": "needs_review",
+          "last_rejected_attempt": {
+            "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+            "issues": [
+              "Added categorical gloss 'זֶה שֶׁאֵין מַלְקוֹת אֵינוֹ אוֹמֵר שֶׁהַמַּעֲשֶׂה מֻתָּר, רַק שֶׁאֵין עָלָיו הָעֹנֶשׁ' – source only says 'אוֹנֵן שֶׁעָבַד אֵינוֹ לוֹקֶה' without stating prohibition, while earlier clause 'כֹּהֵן גָּדוֹל עוֹבֵד אוֹנֵן' permits Kohen Gadol onen service. Global 'not permitted / only no punishment' claim contradicts the permitted Kohen Gadol case and adds unsupported prohibition. Safe reword: state only 'אינו לוקה' as in source without inferring prohibited vs permitted, or expressly limit any prohibition claim to ordinary kohen distinct from Kohen Gadol."
+            ],
+            "attempted_at": "2026-11-17T08:49:57.305595+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
           "generated_at": "2026-11-17T06:52:33.386569+00:00",
-          "review_status": "needs_review"
+          "review_status": "needs_review",
+          "last_rejected_attempt": {
+            "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+            "issues": [
+              "Added categorical gloss 'Not getting lashes does not mean the act is permitted, only that this special punishment does not apply' – source only says onen who served 'אֵינוֹ לוֹקֶה' without stating prohibition, while earlier clause permits Kohen Gadol to do service as an onen. Global claim makes the permitted Kohen Gadol service case false and adds unsupported prohibition. Safe reword: state only that he 'does not get lashes' as in source without inferring prohibited vs permitted, or qualify that Kohen Gadol's service is permitted."
+            ],
+            "attempted_at": "2026-11-17T08:49:57.305707+00:00"
+          }
         }
       }
     },
