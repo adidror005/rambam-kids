@@ -1,9 +1,11 @@
-"""Generate only missing kid-friendly Mishneh Torah adaptations with an LLM.
+"""Generate kid-friendly Mishneh Torah adaptations with an LLM.
 
-Default provider: Meta Muse Spark 1.3 Contributor (via the OpenAI-compatible Responses API).
-Each successful segment is written to its chapter JSON immediately. Re-running
-this script skips fields that are already present, including partially completed
-segments. Newly generated adaptations are marked as AI drafts for human review.
+Default provider: Meta Muse Model API (via the OpenAI-compatible Responses API).
+By default, generate only missing fields; successful results are saved immediately.
+With --regenerate, update older AI-generated adaptations to the current prompt
+version, while skipping fields already regenerated with that version. Approved or
+untracked existing adaptations are not overwritten automatically.
+These remain AI drafts pending careful human / rabbinic review.
 """
 from __future__ import annotations
 
@@ -21,31 +23,77 @@ from common import BOOKS, ROOT, load_json, rebuild_manifest, write_json
 META_URL = "https://api.meta.ai/v1"
 TARGETS = ("kids_hebrew", "kids_english")
 
-INSTRUCTIONS = """You are preparing an educational, kid-accessible adaptation of a passage
-from Maimonides' Mishneh Torah. Your job is to explain faithfully, not to add
-new legal rulings or rewrite the law to fit modern expectations.
+# Increment this when you change the adaptation rules and want to upgrade drafts.
+PROMPT_VERSION = "kids-adaptation-v2-2026-11-17"
 
-Hard requirements:
-- Retain the passage's material legal distinctions, conditions, and exceptions.
-- Use simple, precise language suitable for a young reader, without childish
-  filler or adding speculative historical details. Do not silently omit difficult
-  or sensitive concepts. Do not normalize historical practices as modern advice.
-- If a concept needs a short explanation, explain it in the adaptation itself.
-- For kids_hebrew: write clear modern Hebrew WITH full niqqud. Adapt the text;
-  do not merely copy the original. Preserve technical Hebrew terms if useful.
-- For kids_english: write natural, clear English, explain specialized Hebrew
-  terms briefly, and do not oversimplify away any material condition.
-- Respond with ONLY one JSON object, with exactly the requested keys and
-  string values. No markdown fences, notes, or other prose.
-- These are AI draft adaptations, to be checked by a human before publication.
+INSTRUCTIONS = """You are preparing a kid-friendly educational adaptation of a
+passage from Maimonides' Mishneh Torah. Explain the source faithfully.
+Do not add rulings, speculate about historical details, or modernize the law.
+
+Accuracy is more important than brevity:
+- Preserve every material halachic distinction, condition, exception, threshold,
+  consequence and limitation in the original source. Do not skip difficult or
+  sensitive concepts to make the text more child-friendly.
+- Distinguish what is prohibited from what makes a person liable or an action
+  invalid. In particular, 'patur' (פטור) does NOT automatically mean 'permitted'
+  (מותר); and 'the service remains valid' does NOT automatically mean the
+  action was allowed. Explain these distinctions in simple words where relevant.
+- Do not invent new prohibitions, exceptions, examples, interpretations, or
+  explanations not justified by the source. Use carefully qualified wording
+  whenever meaning depends on context. Preserve short source quotations exactly.
+- Explain unfamiliar terms briefly, accurately, and in context. For example,
+  if relevant: 'יין חי' means undiluted wine (not necessarily extra-strong wine);
+  'רביעית' is a halachic volume measure (do not invent a fixed modern conversion).
+
+Writing style:
+- Target ages 8-12. Use natural language, short sentences, and short paragraphs
+  (normally 2-4 sentences). When several conditions are listed, use separate
+  short sentences or a short numbered list inside the text rather than one
+  enormous paragraph. Preserve all meaningful details even if the result is long.
+- Lead with the main rule. Then explain the key conditions, consequences,
+  and exceptions in a logical sequence.
+- Avoid repetitive 'כלומר' in Hebrew or 'meaning' in English; explain a term
+  once in a natural phrase. Avoid legal jargon when a simple faithful expression
+  will do, but retain and briefly explain terms whose precision matters.
+- For kids_hebrew: write clear, modern Hebrew WITH niqqud. Avoid long nested
+  clauses. Produce several paragraphs separated by \n\n in the JSON string.
+- For kids_english: write clear natural English in several short paragraphs,
+  explaining technical Hebrew terms when important.
+- Do not present historical legal arrangements as instructions for children today.
+- Respond with ONLY one valid JSON object with exactly the requested keys, each
+  containing a string. No markdown fences or unrelated prose.
+- These are AI drafts requiring human/rabbinic review before publication.
 """
 
 
-def missing_fields(segment: dict, only: str | None = None) -> list[str]:
+def fields_to_generate(segment: dict, only: str | None = None,
+                       regenerate: bool = False) -> list[str]:
+    """Find missing fields, or older generated drafts eligible for refresh.
+
+    When regenerating, protect approved fields and existing content without
+    known AI provenance; skip fields already upgraded to PROMPT_VERSION so an
+    interrupted --regenerate run resumes without re-paying for completed work.
+    """
     if not segment.get("original_hebrew"):
         return []
     candidates = (only,) if only else TARGETS
-    return [key for key in candidates if not segment.get(key)]
+    meta = segment.get("ai_generation") or {}
+    result = []
+    for key in candidates:
+        if not segment.get(key):
+            result.append(key)
+            continue
+        if not regenerate:
+            continue
+        field_meta = meta.get(key) or {}
+        if field_meta.get("review_status") == "approved":
+            continue
+        if not field_meta:
+            # The field may be a manually authored adaptation.
+            continue
+        if field_meta.get("prompt_version") != PROMPT_VERSION:
+            result.append(key)
+    return result
 
 
 def parse_response(text: str, expected_fields: list[str]) -> dict[str, str]:
@@ -156,7 +204,7 @@ def run(args, client=None) -> tuple[int, int]:
         for path in paths:
             doc = load_json(path)
             for index, segment in sorted(doc.get("segments", {}).items(), key=lambda item: int(item[0])):
-                fields = missing_fields(segment, args.only)
+                fields = fields_to_generate(segment, args.only, args.regenerate)
                 if not fields:
                     continue
                 if args.limit is not None and attempts >= args.limit:
@@ -167,17 +215,18 @@ def run(args, client=None) -> tuple[int, int]:
                 if args.dry_run:
                     continue
                 try:
-                    # Both missing languages are generated in one API call by default.
+                    # All selected fields are generated in one API call by default.
                     values = generate(client, args.model, ref, segment["original_hebrew"], fields)
                     for field, value in values.items():
-                        if not segment.get(field):
-                            segment[field] = value
+                        # Replace only fields chosen above; preserve original Hebrew.
+                        segment[field] = value
                     segment["ai_draft"] = True
                     meta = segment.setdefault("ai_generation", {})
                     for field in fields:
                         meta[field] = {
                             "model": args.model,
                             "provider": args.provider,
+                            "prompt_version": PROMPT_VERSION,
                             "generated_at": datetime.now(timezone.utc).isoformat(),
                             "review_status": "needs_review",
                         }
@@ -200,10 +249,10 @@ def run(args, client=None) -> tuple[int, int]:
         if changed:
             rebuild_manifest()
     if args.dry_run:
-        print(f"Dry run: {attempts} segments need adaptations. No API calls made.")
+        print(f"Dry run: {attempts} segments selected. No API calls made.")
     else:
         print(f"Generated {successful} segments; {failures} errors; saved immediately.")
-        print("Re-run the same command to continue from whatever is still missing.")
+        print("Re-run the same command to continue. Completed fields are skipped.")
     return successful, failures
 
 
@@ -213,12 +262,14 @@ def main(argv=None):
     parser.add_argument("--slug", help="Book slug (default: mishneh-torah-slaves)")
     parser.add_argument("--chapter", type=int, help="One chapter from the selected book")
     parser.add_argument("--only", choices=TARGETS, help="Generate only one target language")
+    parser.add_argument("--regenerate", action="store_true",
+                        help="Refresh older AI adaptations to the current prompt version; skip approved fields")
     parser.add_argument("--limit", type=int, help="Maximum number of segments to attempt")
     parser.add_argument("--provider", choices=("meta", "openai"), default="meta")
-    parser.add_argument("--model", help="Model ID; defaults to muse-spark-1.3-contributor for Meta")
+    parser.add_argument("--model", help="Model ID; defaults to muse-spark-1.3 for Meta")
     parser.add_argument("--base-url", help="Override API base URL (advanced)")
     parser.add_argument("--delay", type=float, default=0.25, help="Seconds between requests (default 0.25)")
-    parser.add_argument("--dry-run", action="store_true", help="Preview missing segments without API calls")
+    parser.add_argument("--dry-run", action="store_true", help="Preview selected segments without API calls")
     parser.add_argument("--fail-fast", action="store_true", help="Stop on first failed response")
     args = parser.parse_args(argv)
     if args.all and (args.slug or args.chapter):
@@ -228,7 +279,7 @@ def main(argv=None):
     if args.delay < 0:
         parser.error("--delay must be >= 0")
     if not args.model:
-        args.model = "muse-spark-1.3-contributor" if args.provider == "meta" else "gpt-5-mini"
+        args.model = "muse-spark-1.3" if args.provider == "meta" else "gpt-5-mini"
     try:
         if not args.dry_run:
             load_local_env()

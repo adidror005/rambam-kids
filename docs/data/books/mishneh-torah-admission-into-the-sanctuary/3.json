@@ -8,59 +8,297 @@
   "segments": {
     "1": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:1",
-      "original_hebrew": "מִצְוַת עֲשֵׂה לְשַׁלֵּחַ כָּל הַטְּמֵאִים מִן הַמִּקְדָּשׁ שֶׁנֶּאֱמַר (במדבר ה ב) \"וִישַׁלְּחוּ מִן הַמַּחֲנֶה כָּל צָרוּעַ וְכָל זָב וְכל טָמֵא לָנָפֶשׁ\":"
+      "original_hebrew": "מִצְוַת עֲשֵׂה לְשַׁלֵּחַ כָּל הַטְּמֵאִים מִן הַמִּקְדָּשׁ שֶׁנֶּאֱמַר (במדבר ה ב) \"וִישַׁלְּחוּ מִן הַמַּחֲנֶה כָּל צָרוּעַ וְכָל זָב וְכל טָמֵא לָנָפֶשׁ\":",
+      "kids_hebrew": "יֵשׁ מִצְוַת עֲשֵׂה לְהַרְחִיק אֶת כָּל הַטְּמֵאִים מִן הַמִּקְדָּשׁ, וְזֶה הָיָה נוֹהֵג בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם. הַתּוֹרָה אוֹמֶרֶת (בְּמִדְבַּר ה, ב): \"וִישַׁלְּחוּ מִן הַמַּחֲנֶה כָּל צָרוּעַ וְכָל זָב וְכֹל טָמֵא לָנֶפֶשׁ\". טֻמְאָה אֵינָהּ לִכְלוּךְ, אֶלָּא מַצָּב שֶׁלֹּא מַתְאִים לִהְיוֹת בְּמָקוֹם קָדוֹשׁ. צָרוּעַ הוּא אָדָם שֶׁיֵּשׁ לוֹ נֶגַע שֶׁל צָרַעַת. זָב הוּא אָדָם שֶׁיּוֹצֵא מִגּוּפוֹ נוֹזֵל מְיֻחָד שֶׁגּוֹרֵם טֻמְאָה. טָמֵא לָנֶפֶשׁ הוּא מִי שֶׁנִּטְמָא מִפְּנֵי שֶׁנָּגַע בְּמֵת אוֹ הָיָה קָרוֹב אֵלָיו.",
+      "kids_english": "There is a positive commandment, a mitzvat aseh, to send every person who is tamei, ritually impure, away from the Mikdash, the Temple, so an impure person will not stay in the holy place. This law applied when the Beit HaMikdash stood in Jerusalem. The Torah says (Numbers 5:2): 'They shall send out of the camp every tzaru'a, every zav, and every tamei lanefesh.' Tumah does not mean dirty; it means a special ritual status that does not fit the Temple. A tzaru'a is a person with tzara'at, a special skin condition. A zav is a person with a special bodily discharge that causes tumah. A tamei lanefesh is a person who became tamei because of contact with a dead body.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:56:43.230018+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:56:43.230033+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "2": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:2",
-      "original_hebrew": "זֶה הַמַּחֲנֶה הָאָמוּר כָּאן הוּא מַחֲנֵה שְׁכִינָה שֶׁהוּא מִפֶּתַח עֶזְרַת יִשְׂרָאֵל וְלִפְנִים. שׁוֹמֵעַ אֲנִי שֶׁהַמְצֹרָע וְהַזָּב וּטְמֵא מֵת שְׁלָשְׁתָּן בְּמָקוֹם אֶחָד. תַּלְמוּד לוֹמַר בִּמְצֹרָע (ויקרא יג מו) \"בָּדָד יֵשֵׁב מִחוּץ לַמַּחֲנֶה מוֹשָׁבוֹ\" זֶה מַחֲנֵה יִשְׂרָאֵל שֶׁהוּא מִפֶּתַח יְרוּשָׁלַיִם וּלְפָנִים. מָה מְצֹרָע שֶׁטֻּמְאָתוֹ חֲמוּרָה חָמוּר שִׁלּוּחוֹ מִשִּׁלּוּחַ חֲבֵרוֹ. אַף כָּל שֶׁטֻּמְאָתוֹ חֲמוּרָה חָמוּר שִׁלּוּחוֹ מִשִּׁלּוּחַ חֲבֵרוֹ. לְפִיכָךְ מְשַׁלְּחִין אֶת הַמְצֹרָע חוּץ לִשְׁלֹשָׁה מַחֲנוֹת שֶׁהוּא חוּץ לִירוּשָׁלַיִם. מִפְּנֵי שֶׁהוּא מְטַמֵּא בְּבִיאָה. מַה שֶּׁאֵין הַזָּב מְטַמֵּא:"
+      "original_hebrew": "זֶה הַמַּחֲנֶה הָאָמוּר כָּאן הוּא מַחֲנֵה שְׁכִינָה שֶׁהוּא מִפֶּתַח עֶזְרַת יִשְׂרָאֵל וְלִפְנִים. שׁוֹמֵעַ אֲנִי שֶׁהַמְצֹרָע וְהַזָּב וּטְמֵא מֵת שְׁלָשְׁתָּן בְּמָקוֹם אֶחָד. תַּלְמוּד לוֹמַר בִּמְצֹרָע (ויקרא יג מו) \"בָּדָד יֵשֵׁב מִחוּץ לַמַּחֲנֶה מוֹשָׁבוֹ\" זֶה מַחֲנֵה יִשְׂרָאֵל שֶׁהוּא מִפֶּתַח יְרוּשָׁלַיִם וּלְפָנִים. מָה מְצֹרָע שֶׁטֻּמְאָתוֹ חֲמוּרָה חָמוּר שִׁלּוּחוֹ מִשִּׁלּוּחַ חֲבֵרוֹ. אַף כָּל שֶׁטֻּמְאָתוֹ חֲמוּרָה חָמוּר שִׁלּוּחוֹ מִשִּׁלּוּחַ חֲבֵרוֹ. לְפִיכָךְ מְשַׁלְּחִין אֶת הַמְצֹרָע חוּץ לִשְׁלֹשָׁה מַחֲנוֹת שֶׁהוּא חוּץ לִירוּשָׁלַיִם. מִפְּנֵי שֶׁהוּא מְטַמֵּא בְּבִיאָה. מַה שֶּׁאֵין הַזָּב מְטַמֵּא:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיוּ שְׁלֹשָׁה מַחֲנוֹת, שְׁלֹשָׁה אֲזוֹרִים בִּקְדֻשָּׁה עוֹלָה. הַמַּחֲנֶה הַפְּנִימִי וְהַקָּדוֹשׁ בְּיוֹתֵר נִקְרָא מַחֲנֵה שְׁכִינָה. הוּא מַתְחִיל מִפֶּתַח עֶזְרַת יִשְׂרָאֵל, הֶחָצֵר שֶׁבָּהּ עָמְדוּ בְּנֵי יִשְׂרָאֵל בַּמִּקְדָּשׁ, וּמִשָּׁם וּפְנִימָה. אֶפְשָׁר הָיָה לַחְשֹׁב שֶׁהַמְּצֹרָע וְהַזָּב וּטְמֵא מֵת, שְׁלָשְׁתָּם אֲסוּרִים בְּאוֹתוֹ מָקוֹם עַצְמוֹ. מְצֹרָע הוּא אָדָם שֶׁיֵּשׁ לוֹ צָרַעַת, נֶגַע עוֹרִי מְיֻחָד שֶׁגּוֹרֵם טֻמְאָה חֲמוּרָה. זָב הוּא אָדָם שֶׁיּוֹצֵא מִגּוּפוֹ נוֹזֵל מְיֻחָד שֶׁגּוֹרֵם טֻמְאָה. טְמֵא מֵת הוּא אָדָם שֶׁנָּגַע בְּמֵת וְנִטְמָא. טֻמְאָה אֵינָהּ לִכְלוּךְ, אֶלָּא מַצָּב שֶׁל הַתּוֹרָה שֶׁמּוֹנֵעַ לְהִכָּנֵס לְמָקוֹם קָדוֹשׁ. אֲבָל הַתּוֹרָה אָמְרָה עַל הַמְּצֹרָע, בָּדָד יֵשֵׁב מִחוּץ לַמַּחֲנֶה מוֹשָׁבוֹ. הַמַּחֲנֶה כָּאן הוּא מַחֲנֵה יִשְׂרָאֵל, שֶׁמַּתְחִיל מִפֶּתַח יְרוּשָׁלַיִם וּפְנִימָה. מִכָּאן לָמַדְנוּ כְּלָל: כְּמוֹ שֶׁטֻּמְאַת הַמְּצֹרָע חֲמוּרָה וְלָכֵן שִׁלּוּחוֹ, הַרְחָקָתוֹ, חָמוּר מִשִּׁלּוּחַ חֲבֵרוֹ, כָּךְ כָּל מִי שֶׁטֻּמְאָתוֹ חֲמוּרָה יוֹתֵר, מַרְחִיקִים אוֹתוֹ יוֹתֵר. לָכֵן בִּזְמַן הַמִּקְדָּשׁ שָׁלְחוּ אֶת הַמְּצֹרָע מִחוּץ לִשְׁלֹשֶׁת הַמַּחֲנוֹת, כְּלוֹמַר מִחוּץ לִירוּשָׁלַיִם. הַסִּבָּה לַחֻמְרָה הִיא שֶׁהַמְּצֹרָע מְטַמֵּא אֲפִלּוּ בְּבִיאָה, כְּלוֹמַר בַּיִת נִטְמָא רַק מִכָּךְ שֶׁהַמְּצֹרָע נִכְנַס אֵלָיו, דָּבָר שֶׁהַזָּב אֵינוֹ עוֹשֶׂה.",
+      "kids_english": "In the time of the Temple in Jerusalem, there were three areas of holiness called camps. The innermost and holiest camp, called Machaneh Shechinah, the Camp of the Divine Presence, began at the entrance to Ezrat Yisrael, the courtyard where Israelites stood in the Temple, and included everything inward from there. You might have thought that three kinds of ritually impure people were all kept out of that same place: a metzora, a person with tzaraat, a special skin condition that causes severe ritual impurity; a zav, a person with a certain bodily discharge that causes ritual impurity; and a tamei met, a person who became ritually impure by touching a dead body. Ritual impurity here does not mean dirt; it means a status defined by the Torah that kept a person out of holy places. But the Torah says about the metzora, 'He shall sit alone; his dwelling shall be outside the camp.' That camp means Machaneh Yisrael, the Camp of Israel, which began at the entrance to Jerusalem and included everything inward. From this we learn a rule: just as the metzora has severe impurity and therefore is sent out more strictly than his fellow, so anyone whose impurity is more severe is sent out more strictly than one whose impurity is less severe. Therefore, in Temple times, the metzora was sent outside all three camps, that is, outside Jerusalem. The reason for this extra strictness is that a metzora makes things impure merely by entering, for example a house becomes impure just because a metzora entered it, something a zav does not do.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:58:16.979654+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:58:16.979675+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "3": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:3",
-      "original_hebrew": "וּמְשַׁלְּחִין זָבִין וְזָבוֹת נִדּוֹת וְיוֹלְדוֹת חוּץ לִשְׁתֵּי מַחֲנוֹת שֶׁהוּא חוּץ לְהַר הַבַּיִת. מִפְּנֵי שֶׁהֵן מְטַמְּאִין הַמִּשְׁכָּב וְהַמּוֹשָׁב אֲפִלּוּ מִתַּחַת הָאֶבֶן מַה שֶּׁאֵין הַמֵּת מְטַמֵּא:"
+      "original_hebrew": "וּמְשַׁלְּחִין זָבִין וְזָבוֹת נִדּוֹת וְיוֹלְדוֹת חוּץ לִשְׁתֵּי מַחֲנוֹת שֶׁהוּא חוּץ לְהַר הַבַּיִת. מִפְּנֵי שֶׁהֵן מְטַמְּאִין הַמִּשְׁכָּב וְהַמּוֹשָׁב אֲפִלּוּ מִתַּחַת הָאֶבֶן מַה שֶּׁאֵין הַמֵּת מְטַמֵּא:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, זָב וְזָבָה, נִדָּה וְיוֹלֶדֶת הָיוּ חַיָּבִים לִהְיוֹת מִחוּץ לִשְׁנֵי מַחֲנוֹת, כְּלוֹמַר מִחוּץ לְהַר הַבַּיִת. זָב וְזָבָה הֵם אֲנָשִׁים שֶׁיֵּשׁ לָהֶם נוֹזֵל מְיֻחָד שֶׁיּוֹצֵא מִן הַגּוּף, נִדָּה הִיא אִשָּׁה בִּזְמַן דִּמּוּם חָדְשִׁי, וְיוֹלֶדֶת הִיא אִשָּׁה שֶׁיָּלְדָה לִפְנֵי זְמַן קָצָר. הַסִּבָּה לַהֲלָכָה הִיא שֶׁהֵם מְטַמְּאִים מִשְׁכָּב וּמוֹשָׁב, כְּלוֹמַר מִטָּה אוֹ מָקוֹם יְשִׁיבָה שֶׁמְּיֻעָד לָכָךְ, אֲפִלּוּ אִם יֵשׁ אֶבֶן בֵּינֵיהֶם וּבֵין הַמִּטָּה אוֹ הַמּוֹשָׁב. טֻמְאַת מֵת, אַף שֶׁהִיא חֲמוּרָה מְאוֹד, אֵינָהּ מְטַמֵּאת מִשְׁכָּב וּמוֹשָׁב בְּדֶרֶךְ כָּזוֹ.",
+      "kids_english": "At the time of the Temple, a zav and a zava (a man or a woman with a special kind of flow from the body), a niddah (a woman during her monthly bleeding), and a yoledet (a woman who had given birth a short time before) had to stay outside two camps, which means outside the Temple Mount. The reason is that they make a mishkav or moshav impure — that is, a bed or a place for sitting that is set aside for lying or sitting — even if there is a stone between the person and the bed or seat. Impurity from a dead body, even though it is very severe, does not make a mishkav or moshav impure in that way.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:59:44.686455+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T06:59:44.686471+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "4": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:4",
-      "original_hebrew": "טְמֵא מֵת אֲפִלּוּ הַמֵּת עַצְמוֹ מֻתָּר לְהִכָּנֵס לְהַר הַבַּיִת שֶׁנֶּאֱמַר (שמות יג יט) \"וַיִּקַּח משֶׁה אֶת עַצְמוֹת יוֹסֵף עִמּוֹ\" עִמּוֹ בְּמַחֲנֵה הַלְּוִיָּה:"
+      "original_hebrew": "טְמֵא מֵת אֲפִלּוּ הַמֵּת עַצְמוֹ מֻתָּר לְהִכָּנֵס לְהַר הַבַּיִת שֶׁנֶּאֱמַר (שמות יג יט) \"וַיִּקַּח משֶׁה אֶת עַצְמוֹת יוֹסֵף עִמּוֹ\" עִמּוֹ בְּמַחֲנֵה הַלְּוִיָּה:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, אָדָם שֶׁנִּטְמָא כִּי נָגַע בְּמֵת, וַאֲפִלּוּ הַמֵּת עַצְמוֹ, מֻתָּר הָיָה לְהִכָּנֵס לְהַר הַבַּיִת. הַר הַבַּיִת הוּא הֶחָצֵר הַגְּדוֹלָה שֶׁמִּסָּבִיב לְבֵית הַמִּקְדָּשׁ, וְלֹא בֵּית הַמִּקְדָּשׁ עַצְמוֹ. אֲנַחְנוּ לוֹמְדִים זֹאת מִמֹּשֶׁה רַבֵּנוּ: כְּשֶׁיָּצְאוּ מִמִּצְרַיִם מֹשֶׁה לָקַח אִתּוֹ אֶת עַצְמוֹת יוֹסֵף, וְהָיָה אִתָּם בְּתוֹךְ מַחֲנֵה הַלְּוִיָּה, שֶׁהוּא הַמָּקוֹם בַּמִּדְבָּר שֶׁדּוֹמֶה בִּקְדֻשָּׁתוֹ לְהַר הַבַּיִת.",
+      "kids_english": "In the time of the Temple, a person with tamei-met impurity — impurity from contact with a dead body — was allowed to enter Har HaBayit, the Temple Mount. Har HaBayit is the large courtyard area surrounding the Temple building itself, not the inner Temple. This permission was so broad that even the dead body itself could be brought there. We learn this from a verse about Moses: when the Israelites left Egypt, Moses took the bones of Joseph 'with him,' which means he kept them with him inside Machaneh Leviyah, the Levite camp in the desert, which has the same level of holiness as Har HaBayit.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:00:16.647476+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:00:16.647491+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "5": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:5",
-      "original_hebrew": "הַחֵיל מְשַׁלְּחִין מִמֶּנּוּ עַכּוּ\"ם וּטְמֵאֵי מֵת וּבוֹעֲלֵי נִדּוֹת. אֲבָל טְבוּל יוֹם נִכְנַס לְשָׁם שֶׁכְּבָר טָבַל:"
+      "original_hebrew": "הַחֵיל מְשַׁלְּחִין מִמֶּנּוּ עַכּוּ\"ם וּטְמֵאֵי מֵת וּבוֹעֲלֵי נִדּוֹת. אֲבָל טְבוּל יוֹם נִכְנַס לְשָׁם שֶׁכְּבָר טָבַל:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיָה אֵזוֹר שֶׁנִּקְרָא הַחֵיל. הוּא הָיָה קָדוֹשׁ יוֹתֵר מֵהַר הַבַּיִת שֶׁמִּסָּבִיב. מִן הַחֵיל מַרְחִיקִים שְׁלוֹשָׁה סוּגִים שֶׁל אֲנָשִׁים: עַכּוּ״ם, כְּלוֹמַר אֲנָשִׁים שֶׁאֵינָם יְהוּדִים, וּטְמֵאֵי מֵת, כְּלוֹמַר מִי שֶׁנִּטְמָא בְּטֻמְאַת מֵת, וּבוֹעֲלֵי נִדּוֹת, כְּלוֹמַר מִי שֶׁהָיָה בְּקֶשֶׁר גּוּפָנִי עִם אִשָּׁה נִדָּה. אֲבָל טְבוּל יוֹם, כְּלוֹמַר מִי שֶׁכְּבָר טָבַל בַּמִּקְוֶה הַיּוֹם וּמְחַכֶּה לָעֶרֶב לִטְהָרָה שְׁלֵמָה, מֻתָּר לְהִכָּנֵס לַחֵיל, כִּי הוּא כְּבָר טָבַל.",
+      "kids_english": "In the time of the Temple, there was an area called the Cheil, which was holier than the surrounding Temple Mount. Three kinds of people had to stay out of the Cheil: akum, meaning people who are not Jewish; people with corpse-impurity, meaning people who became ritually impure through contact with a dead person; and men who had intimate relations with a niddah, meaning a woman in the state of menstrual impurity until she immerses. But a tevul yom — someone who already immersed in a mikveh, a ritual bath, that day but has not yet waited until evening for full purification — was allowed to enter the Cheil, because he had already immersed.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:01:36.831352+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:01:36.831378+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "6": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:6",
-      "original_hebrew": "עֶזְרַת הַנָּשִׁים מְשַׁלְּחִין מִמֶּנּוּ טְבוּל יוֹם אֲבָל לֹא מְחֻסַּר כִּפּוּרִים. שֶׁמְּחֻסַּר כִּפּוּרִים הֶעֱרִיב שִׁמְשׁוֹ. וְאָסוּר טְבוּל יוֹם בְּמַחֲנֵה לְוִיָּה מִדִּבְרֵי סוֹפְרִים:"
+      "original_hebrew": "עֶזְרַת הַנָּשִׁים מְשַׁלְּחִין מִמֶּנּוּ טְבוּל יוֹם אֲבָל לֹא מְחֻסַּר כִּפּוּרִים. שֶׁמְּחֻסַּר כִּפּוּרִים הֶעֱרִיב שִׁמְשׁוֹ. וְאָסוּר טְבוּל יוֹם בְּמַחֲנֵה לְוִיָּה מִדִּבְרֵי סוֹפְרִים:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, עֶזְרַת הַנָּשִׁים הָיְתָה חָצֵר קְדוֹשָׁה בְּבֵית הַמִּקְדָּשׁ. מוֹצִיאִים מִמֶּנָּה אָדָם שֶׁהוּא טְבוּל יוֹם. טְבוּל יוֹם הוּא אָדָם שֶׁנִּטְמָא וְטָבַל בַּמִּקְוֶה, אֲבָל הַשֶּׁמֶשׁ עֲדַיִן לֹא שָׁקְעָה. אֲבָל לֹא מוֹצִיאִים מִמֶּנָּה אָדָם שֶׁהוּא מְחֻסַּר כִּפּוּרִים. מְחֻסַּר כִּפּוּרִים הוּא אָדָם שֶׁכְּבָר טָבַל וְהַשֶּׁמֶשׁ שֶׁלּוֹ כְּבָר שָׁקְעָה, וְרַק עֲדַיִן לֹא הֵבִיא אֶת הַקָּרְבָּן שֶׁהוּא צָרִיךְ. עֶזְרַת הַנָּשִׁים הִיא בְּתוֹךְ מַחֲנֵה לְוִיָּה, וְהָאִסּוּר שֶׁל טְבוּל יוֹם לְהִכָּנֵס לְשָׁם הוּא לֹא מִן הַתּוֹרָה, אֶלָּא מִדִּבְרֵי סוֹפְרִים, כְּלוֹמַר מֵחֲכָמִים.",
+      "kids_english": "In the time of the Temple, the Ezrat Nashim — the Women's Courtyard, a holy courtyard in the Temple — had this rule. A tevul yom — a person who had become impure and then immersed in a mikveh, but the sun had not yet set that day — was sent out from the Ezrat Nashim. But a mechusar kippurim — a person who had already immersed and whose sun had already set, and who only still had to bring the offering he owed — was not sent out. The reason is that his sun had already set. For a tevul yom to enter Machane Leviyah — the level of holiness called the Levite camp, which includes the Ezrat Nashim — was forbidden only midivrei sofrim, that is, by a decree of the Sages, not by Torah law.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:02:45.314359+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:02:45.314387+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "7": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:7",
-      "original_hebrew": "מֵעֶזְרַת יִשְׂרָאֵל וּלְפָנִים אֲפִלּוּ מְחֻסַּר כִּפּוּרִים לֹא יִכָּנֵס לְשָׁם שֶׁעֲדַיִן לֹא טָהַר טָהֳרָה גְּמוּרָה שֶׁנֶּאֱמַר (ויקרא יב ח) \"וְכִפֶּר עָלֶיהָ הַכֹּהֵן וְטָהֵרָה\" מִכְּלַל שֶׁעֲדַיִן לֹא גָּמְרָה טָהֳרָתָהּ:"
+      "original_hebrew": "מֵעֶזְרַת יִשְׂרָאֵל וּלְפָנִים אֲפִלּוּ מְחֻסַּר כִּפּוּרִים לֹא יִכָּנֵס לְשָׁם שֶׁעֲדַיִן לֹא טָהַר טָהֳרָה גְּמוּרָה שֶׁנֶּאֱמַר (ויקרא יב ח) \"וְכִפֶּר עָלֶיהָ הַכֹּהֵן וְטָהֵרָה\" מִכְּלַל שֶׁעֲדַיִן לֹא גָּמְרָה טָהֳרָתָהּ:",
+      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, הָיָה בּוֹ מָקוֹם קָדוֹשׁ שֶׁנִּקְרָא עֶזְרַת יִשְׂרָאֵל. מִשָּׁם וּפְנִימָה, לַמְּקוֹמוֹת הַקְּדוֹשִׁים יוֹתֵר, אָסוּר הָיָה לְהִכָּנֵס אֲפִלּוּ לְמִי שֶׁנִּקְרָא מְחֻסַּר כִּפּוּרִים. מְחֻסַּר כִּפּוּרִים הוּא אָדָם שֶׁכְּבָר טָבַל וְחִכָּה אֶת הַזְּמַן שֶׁצָּרִיךְ, אֲבָל עֲדַיִן לֹא הֵבִיא אֶת הַקָּרְבָּן שֶׁהוּא חַיָּב לְהָבִיא. הוּא עֲדַיִן לֹא טָהוֹר לְגַמְרֵי. כָּךְ כָּתוּב בַּתּוֹרָה עַל הַיּוֹלֶדֶת, אִשָּׁה שֶׁיָּלְדָה: וְכִפֶּר עָלֶיהָ הַכֹּהֵן וְטָהֵרָה, כְּלוֹמַר רַק אַחֲרֵי שֶׁהַכֹּהֵן מְכַפֵּר עָלֶיהָ בַּקָּרְבָּן הִיא נַעֲשֵׂית טְהוֹרָה לְגַמְרֵי.",
+      "kids_english": "When the Temple stood, there was a holy area called Ezrat Yisrael, the Court of Israel. From there and farther inside, into the more holy places, even a person called a mechusar kippurim was not allowed to enter. A mechusar kippurim, literally one who still lacks atonement, is someone who had already immersed in a mikveh and waited the required time, but had not yet brought the offering he or she was required to bring to finish becoming tahor, ritually pure. Such a person was still not completely pure. The Torah teaches this about a yoledet, a woman who gave birth, when it says in Leviticus 12:8 that the priest shall make atonement for her and she shall become pure, which shows that her purification is complete only after that atonement.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:03:42.680106+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:03:42.680134+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "8": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:8",
-      "original_hebrew": "הַטָּמֵא הַמְשֻׁלָּח מֵהַר הַבַּיִת אִם נִכְנַס עוֹבֵר בְּלֹא תַּעֲשֶׂה שֶׁנֶּאֱמַר (דברים כג יא) \"וְיָצָא מִחוּץ לַמַּחֲנֶה\" זֶה מַחֲנֵה שְׁכִינָה (דברים כג יא) \"וְלֹא יָבֹא אֶל תּוֹךְ הַמַּחֲנֶה\" זֶה מַחֲנֵה לְוִיָּה. וְכֵן מְצֹרָע שֶׁנִּכְנַס לִירוּשָׁלַיִם לוֹקֶה. אֲבָל אִם נִכְנַס לִשְׁאָר הֶעָרִים הַמֻּקָּפוֹת חוֹמָה אַף עַל פִּי שֶׁאֵינוֹ רַשַּׁאי לְפִי שֶׁנֶּאֱמַר (ויקרא יג מו) \"בָּדָד יֵשֵׁב\" אֵינוֹ לוֹקֶה:"
+      "original_hebrew": "הַטָּמֵא הַמְשֻׁלָּח מֵהַר הַבַּיִת אִם נִכְנַס עוֹבֵר בְּלֹא תַּעֲשֶׂה שֶׁנֶּאֱמַר (דברים כג יא) \"וְיָצָא מִחוּץ לַמַּחֲנֶה\" זֶה מַחֲנֵה שְׁכִינָה (דברים כג יא) \"וְלֹא יָבֹא אֶל תּוֹךְ הַמַּחֲנֶה\" זֶה מַחֲנֵה לְוִיָּה. וְכֵן מְצֹרָע שֶׁנִּכְנַס לִירוּשָׁלַיִם לוֹקֶה. אֲבָל אִם נִכְנַס לִשְׁאָר הֶעָרִים הַמֻּקָּפוֹת חוֹמָה אַף עַל פִּי שֶׁאֵינוֹ רַשַּׁאי לְפִי שֶׁנֶּאֱמַר (ויקרא יג מו) \"בָּדָד יֵשֵׁב\" אֵינוֹ לוֹקֶה:",
+      "kids_hebrew": "טֻמְאָה אֵינָהּ לִכְלוּךְ, אֶלָּא מַצָּב שֶׁבִּגְלָלוֹ הַתּוֹרָה אוֹמֶרֶת לְהִתְרַחֵק מִמְּקוֹמוֹת קְדוֹשִׁים. בִּזְמַן בֵּית הַמִּקְדָּשׁ, אָדָם טָמֵא שֶׁחַיָּב לָצֵאת מֵהַר הַבַּיִת, אִם הוּא נִכְנַס לְשָׁם הוּא עוֹבֵר עַל מִצְוַת לֹא תַעֲשֶׂה. הַתּוֹרָה אוֹמֶרֶת ״וְיָצָא מִחוּץ לַמַּחֲנֶה״, וְזֶה מַחֲנֵה שְׁכִינָה, כְּלוֹמַר אֲזוֹר הַמִּקְדָּשׁ עַצְמוֹ, וְאוֹמֶרֶת ״וְלֹא יָבֹא אֶל תּוֹךְ הַמַּחֲנֶה״, וְזֶה מַחֲנֵה לְוִיָּה, כְּלוֹמַר הַר הַבַּיִת. וְכָךְ גַּם מְצֹרָע, אָדָם שֶׁיֵּשׁ לוֹ טֻמְאַת צָרַעַת וְהוּא צָרִיךְ לָשֶׁבֶת לְבַד, אִם נִכְנַס לִירוּשָׁלַיִם מְקַבֵּל מַלְקוֹת, שֶׁהָיָה עֹנֶשׁ שֶׁבֵּית הַדִּין נָתַן בְּאוֹתָם יָמִים. אֲבָל אִם הוּא נִכְנַס לְעִיר אַחֶרֶת שֶׁמֻּקֶּפֶת חוֹמָה, אַף עַל פִּי שֶׁאָסוּר לוֹ לְהִכָּנֵס לְשָׁם, כִּי הַתּוֹרָה אוֹמֶרֶת ״בָּדָד יֵשֵׁב״, כְּלוֹמַר שֶׁהוּא צָרִיךְ לָשֶׁבֶת לְבַד, הוּא לֹא מְקַבֵּל מַלְקוֹת.",
+      "kids_english": "In the time of the Temple in Jerusalem, a person with ritual impurity, called tumah, which is a special Torah state that kept a person away from holy places and is not just dirt, who was commanded to stay outside the Temple Mount, called Har HaBayit, broke a Torah prohibition, a 'do not' command, if he entered there. The Torah says 'he shall go out outside the camp', which means the Camp of the Divine Presence, called Machane Shechinah, the area of the Temple itself, and 'he shall not come into the midst of the camp', which means the Levite Camp, called Machane Leviyah, that is, the Temple Mount around the Temple. In the same way, a metzora, a person with tzaraat impurity who must live alone outside settled places, who entered Jerusalem was given malkot, lashes, a punishment that the court gave in those days. But if a metzora entered a different city that has a wall around it, even though he was not allowed to enter there because the Torah says 'badad yeshev', meaning 'he shall dwell alone', he was not given malkot.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:05:23.339979+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:05:23.340010+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "9": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:9",
-      "original_hebrew": "נִכְנַס הַמְצֹרָע לְהַר הַבַּיִת לוֹקֶה שְׁמוֹנִים. אֲבָל טְמֵא מֵת אוֹ טְבוּל יוֹם שֶׁנִּכְנַס לְעֶזְרַת נָשִׁים אוֹ מְחֻסַּר כִּפּוּרִים שֶׁנִּכְנַס לְעֶזְרַת יִשְׂרָאֵל אַף עַל פִּי שֶׁאֵינוֹ לוֹקֶה מַכִּין אוֹתוֹ מַכַּת מַרְדּוּת:"
+      "original_hebrew": "נִכְנַס הַמְצֹרָע לְהַר הַבַּיִת לוֹקֶה שְׁמוֹנִים. אֲבָל טְמֵא מֵת אוֹ טְבוּל יוֹם שֶׁנִּכְנַס לְעֶזְרַת נָשִׁים אוֹ מְחֻסַּר כִּפּוּרִים שֶׁנִּכְנַס לְעֶזְרַת יִשְׂרָאֵל אַף עַל פִּי שֶׁאֵינוֹ לוֹקֶה מַכִּין אוֹתוֹ מַכַּת מַרְדּוּת:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיוּ אֲזוֹרִים קְדוֹשִׁים יוֹתֵר וּקְדוֹשִׁים פָּחוֹת. מְצֹרָע הוּא אָדָם שֶׁיֵּשׁ לוֹ טֻמְאַת צָרַעַת. אָסוּר לוֹ לְהִכָּנֵס אֲפִלּוּ לְהַר הַבַּיִת, שֶׁהוּא הַשֶּׁטַח הַגָּדוֹל שֶׁסְּבִיב הַמִּקְדָּשׁ. אִם הוּא נִכְנַס לְשָׁם, הוּא עוֹבֵר עַל אִסּוּר מִן הַתּוֹרָה וְחַיָּב שְׁמוֹנִים מַלְקוֹת. יֵשׁ אֲנָשִׁים טְמֵאִים אֲחֵרִים שֶׁהָעֹנֶשׁ שֶׁלָּהֶם קַל יוֹתֵר. טְמֵא מֵת הוּא מִי שֶׁנָּגַע בְּמֵת, וּטְבוּל יוֹם הוּא מִי שֶׁכְּבָר טָבַל בְּמִקְוֶה אֲבָל עֲדַיִן לֹא הִגִּיעַ הַלַּיְלָה, וְלָכֵן טֻמְאָתוֹ עֲדַיִן לֹא נִגְמְרָה. לִשְׁנֵיהֶם אָסוּר לְהִכָּנֵס לְעֶזְרַת נָשִׁים, שֶׁהִיא חָצֵר בְּתוֹךְ הַר הַבַּיִת. וּמְחֻסַּר כִּפּוּרִים הוּא מִי שֶׁכְּבָר נִטְהַר אֲבָל עֲדַיִן לֹא הֵבִיא אֶת קָרְבָּנוֹ. לוֹ אָסוּר לְהִכָּנֵס לְעֶזְרַת יִשְׂרָאֵל, שֶׁהִיא חָצֵר קְדוֹשָׁה יוֹתֵר שֶׁנִּמְצֵאת אַחֲרֵי עֶזְרַת נָשִׁים. אִם הֵם נִכְנְסוּ לַמְּקוֹמוֹת הָאֵלֶּה, הֵם לֹא מְקַבְּלִים מַלְקוֹת מִן הַתּוֹרָה, אֲבָל בֵּית הַדִּין מַכֶּה אוֹתָם מַכַּת מַרְדּוּת, שֶׁהִיא עֹנֶשׁ שֶׁל חֲכָמִים. אֵלֶּה הָיוּ דִּינֵי טֻמְאָה וְטָהֳרָה בִּזְמַן הַמִּקְדָּשׁ, וְלֹא הַדְרָכָה לְיָמֵינוּ.",
+      "kids_english": "In the time of the Temple, different areas had different rules about ritual impurity. A metzora — a person with the impurity of tzaraat — was forbidden even to enter Har HaBayit, the large Temple Mount area around the Temple. If he entered there, he violated a Torah prohibition and was liable to eighty lashes. Others had a lighter punishment. A tamei met — someone who became impure by touching a dead body — or a tevul yom — someone who already immersed in a mikveh but whose impurity lasts until nightfall — was forbidden to enter Ezrat Nashim, the Women's Courtyard inside Har HaBayit. And a mechusar kippurim — someone who already became pure but still had to bring his offering — was forbidden to enter Ezrat Yisrael, the more sacred courtyard beyond Ezrat Nashim. If they entered those places, they did not receive Torah lashes, but the court gave them makkat mardut, a disciplinary punishment ordered by the Sages. These were Temple purity laws, not guidance for today.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:06:42.600079+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:06:42.600112+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "10": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:10",
-      "original_hebrew": "וּכְשֵׁם שֶׁשִּׁלּוּחַ טְמֵאִים מִן הַמִּקְדָּשׁ בַּעֲשֵׂה כָּךְ אִם נִכְנְסוּ עוֹבְרִים בְּלֹא תַּעֲשֶׂה שֶׁנֶּאֱמַר (במדבר ה ג) \"וְלֹא יְטַמְּאוּ אֶת מַחֲנֵיהֶם\" זֶה מַחֲנֵה שְׁכִינָה:"
+      "original_hebrew": "וּכְשֵׁם שֶׁשִּׁלּוּחַ טְמֵאִים מִן הַמִּקְדָּשׁ בַּעֲשֵׂה כָּךְ אִם נִכְנְסוּ עוֹבְרִים בְּלֹא תַּעֲשֶׂה שֶׁנֶּאֱמַר (במדבר ה ג) \"וְלֹא יְטַמְּאוּ אֶת מַחֲנֵיהֶם\" זֶה מַחֲנֵה שְׁכִינָה:",
+      "kids_hebrew": "יֵשׁ מִצְוַת עֲשֵׂה, כְּלוֹמַר מִצְוָה לַעֲשׂוֹת מַעֲשֶׂה, לְהוֹצִיא אֲנָשִׁים טְמֵאִים מֵאֵזוֹר הַמִּקְדָּשׁ. וְיֵשׁ גַּם מִצְוַת לֹא תַעֲשֶׂה, כְּלוֹמַר אִסּוּר, שֶׁאָדָם טָמֵא לֹא יִכָּנֵס לַמִּקְדָּשׁ. זֶה כְּמוֹ שֶׁכָּתוּב בַּתּוֹרָה: ״וְלֹא יְטַמְּאוּ אֶת מַחֲנֵיהֶם״. חֲזָ״ל לִמְּדוּ שֶׁהַפָּסוּק הַזֶּה מְדַבֵּר עַל מַחֲנֵה שְׁכִינָה, כְּלוֹמַר מְקוֹם הַמִּקְדָּשׁ.",
+      "kids_english": "This was a law for the Temple. Just as there is a positive commandment, a mitzvah that tells us to do something, to send people who are tamei, meaning in a state of ritual impurity, out of the Temple area, if a tamei person entered that area, he or she violates a negative commandment, a mitzvah that forbids doing something. The Torah says in Numbers chapter 5 verse 3: 'and they shall not defile their camps.' This refers to Machaneh Shekhinah, the Camp of the Divine Presence, meaning the area of the Sanctuary.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:07:42.713504+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:07:42.713534+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "11": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:11",
-      "original_hebrew": "וּמִנַּיִן שֶׁאֵינוֹ עוֹבֵר אֶלָּא אִם כֵּן נִכְנַס אֲבָל אִם נָגַע בַּעֲזָרָה מֵאֲחוֹרֶיהָ פָּטוּר שֶׁנֶּאֱמַר בְּיוֹלֶדֶת (ויקרא יב ד) \"וְאֶל הַמִּקְדָּשׁ לֹא תָבֹא\":"
+      "original_hebrew": "וּמִנַּיִן שֶׁאֵינוֹ עוֹבֵר אֶלָּא אִם כֵּן נִכְנַס אֲבָל אִם נָגַע בַּעֲזָרָה מֵאֲחוֹרֶיהָ פָּטוּר שֶׁנֶּאֱמַר בְּיוֹלֶדֶת (ויקרא יב ד) \"וְאֶל הַמִּקְדָּשׁ לֹא תָבֹא\":",
+      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, אָדָם שֶׁהָיָה אָסוּר לוֹ לְהִכָּנֵס לַמִּקְדָּשׁ עָבַר עַל הָאִסּוּר רַק אִם הוּא מַמָּשׁ נִכְנַס פְּנִימָה. אֲבָל אִם הוּא נִשְׁאַר בַּחוּץ וְרַק נָגַע מִבַּחוּץ בַּקִּיר הָאֲחוֹרִי שֶׁל הָעֲזָרָה, הֶחָצֵר הַקְּדוֹשָׁה שֶׁל בֵּית הַמִּקְדָּשׁ, הוּא פָּטוּר מֵעֹנֶשׁ. אֲנַחְנוּ לוֹמְדִים זֹאת מִמַּה שֶׁהַתּוֹרָה אָמְרָה עַל יוֹלֶדֶת, אִשָּׁה שֶׁיָּלְדָה תִּינוֹק: ״וְאֶל הַמִּקְדָּשׁ לֹא תָבֹא״ (וַיִּקְרָא י״ב ד׳). הַמִּלָּה ״תָבֹא״ מְלַמֶּדֶת שֶׁהָאִסּוּר הוּא דַּוְקָא עַל כְּנִיסָה.",
+      "kids_english": "When the Temple stood, a person who was forbidden to enter the sanctuary broke the rule only if he actually went inside. If he stayed outside and only touched the Azarah, the Temple's holy courtyard, from behind its outer wall, he was exempt from punishment. We learn this from what the Torah says about a yoledet, a woman after giving birth: 'and into the sanctuary [mikdash] she shall not come' (Leviticus 12:4). The word 'come' teaches that the prohibition is specifically about entering.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:08:42.706229+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:08:42.706242+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "12": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:12",
-      "original_hebrew": "טָמֵא שֶׁנִּכְנַס לַמִּקְדָּשׁ בְּמֵזִיד עָנוּשׁ כָּרֵת שֶׁנֶּאֱמַר (ויקרא יז טז) \"וְאִם לֹא יְכַבֵּס וּבְשָׂרוֹ לֹא יִרְחָץ וְנָשָׂא עֲוֹנוֹ\". בְּשׁוֹגֵג מֵבִיא קָרְבָּן עוֹלֶה וְיוֹרֵד שֶׁנֶּאֱמַר (ויקרא ה ב) \"אוֹ נֶפֶשׁ אֲשֶׁר תִּגַּע בְּכָל דָּבָר טָמֵא\". וְאֵין חַיָּבִין כָּרֵת אוֹ קָרְבָּן אֶלָּא מֵעֶזְרַת יִשְׂרָאֵל וּלְפָנִים אוֹ עַל תּוֹסֶפֶת הָעֲזָרָה שֶׁנִּתְקַדְּשָׁה קְדֻשָּׁה גְּמוּרָה כְּמוֹ שֶׁבֵּאַרְנוּ:"
+      "original_hebrew": "טָמֵא שֶׁנִּכְנַס לַמִּקְדָּשׁ בְּמֵזִיד עָנוּשׁ כָּרֵת שֶׁנֶּאֱמַר (ויקרא יז טז) \"וְאִם לֹא יְכַבֵּס וּבְשָׂרוֹ לֹא יִרְחָץ וְנָשָׂא עֲוֹנוֹ\". בְּשׁוֹגֵג מֵבִיא קָרְבָּן עוֹלֶה וְיוֹרֵד שֶׁנֶּאֱמַר (ויקרא ה ב) \"אוֹ נֶפֶשׁ אֲשֶׁר תִּגַּע בְּכָל דָּבָר טָמֵא\". וְאֵין חַיָּבִין כָּרֵת אוֹ קָרְבָּן אֶלָּא מֵעֶזְרַת יִשְׂרָאֵל וּלְפָנִים אוֹ עַל תּוֹסֶפֶת הָעֲזָרָה שֶׁנִּתְקַדְּשָׁה קְדֻשָּׁה גְּמוּרָה כְּמוֹ שֶׁבֵּאַרְנוּ:",
+      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, אָדָם טָמֵא הָיָה אָסוּר לְהִכָּנֵס לַמִּקְדָּשׁ. טָמֵא פֵּרוּשׁוֹ אָדָם שֶׁנִּמְצָא בְּמַצָּב שֶׁל טֻמְאָה, וְזֶה לֹא לִכְלוּךְ רָגִיל אֶלָּא מַצָּב שֶׁמַּרְחִיק מִן הַמָּקוֹם הַקָּדוֹשׁ. אִם הוּא נִכְנַס בְּמֵזִיד, כְּלוֹמַר בְּכַוָּנָה כְּשֶׁהוּא יוֹדֵעַ שֶׁהוּא טָמֵא וְשֶׁאָסוּר לְהִכָּנֵס, עָנְשׁוֹ חָמוּר מְאֹד מִן הַשָּׁמַיִם וְנִקְרָא כָּרֵת. אִם הוּא נִכְנַס בְּשׁוֹגֵג, כְּלוֹמַר בְּטָעוּת מִבְּלִי לָדַעַת שֶׁהוּא טָמֵא אוֹ שֶׁאָסוּר לְהִכָּנֵס, הוּא הָיָה צָרִיךְ לְהָבִיא קָרְבָּן עוֹלֶה וְיוֹרֵד, קָרְבָּן שֶׁהַגֹּדֶל שֶׁלּוֹ מִשְׁתַּנֶּה לְפִי מָה שֶׁהָאָדָם יָכוֹל לָתֵת. חִיּוּב כָּרֵת אוֹ קָרְבָּן הָיָה רַק אִם נִכְנַס מֵעֶזְרַת יִשְׂרָאֵל וּפְנִימָה, כְּלוֹמַר לַחֲלָקִים הַפְּנִימִיִּים וְהַקְּדוֹשִׁים יוֹתֵר שֶׁל הַמִּקְדָּשׁ. אוֹתוֹ דִּין הָיָה גַּם עַל תּוֹסֶפֶת לָעֲזָרָה, חֵלֶק חָדָשׁ שֶׁצֵּרְפוּ לֶחָצֵר הַמִּקְדָּשׁ, אִם הוּא קִבֵּל קְדֻשָּׁה גְּמוּרָה כְּמוֹ שֶׁהֻסְבַּר קֹדֶם.",
+      "kids_english": "In the time when the Temple in Jerusalem stood, a person who was tamei was forbidden to enter the Temple. Tamei means being in a state of ritual impurity, which is not ordinary dirt but a special status that keeps a person out of holy places. If a tamei person entered bemezid, meaning on purpose while knowing that he was tamei and that entering was forbidden, the Torah says his punishment is karet, a very severe punishment from God called being cut off. If he entered beshogeg, meaning by mistake without knowing that he was tamei or that entering was forbidden, he had to bring a korban oleh veyored, a sliding-scale offering whose size depended on what he could afford. Karet or the offering applied only if he entered from Ezrat Yisrael, the Courtyard of Israelites, and inward toward the more holy parts of the Temple. The same rule applied to an addition to the Azarah, the Temple courtyard, if it had been made holy with full holiness, as explained before.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:09:38.125759+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:09:38.125773+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "13": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:13",
-      "original_hebrew": "וְאֵי זֶהוּ הַטָּמֵא שֶׁחַיָּב כָּרֵת עַל הַמִּקְדָּשׁ כָּל שֶׁנִּטְמָא בְּטֻמְאָה מִן הַמֵּת שֶׁהַנָּזִיר מְגַלֵּחַ עָלֶיהָ שֶׁכְּבָר נִתְפָּרֵשׁ בִּנְזִירוּת. אוֹ שֶׁיִּגַּע בָּאָדָם אוֹ בְּכֵלִים שֶׁנִּטְמְאוּ בְּאוֹתָן הַטֻּמְאוֹת שֶׁהַנָּזִיר מְגַלֵּחַ עֲלֵיהֶם שֶׁהֲרֵי הוּא שֵׁנִי לָרִאשׁוֹן שֶׁנָּגַע בְּמֵת. אוֹ שֶׁנִּטְמָא בִּשְׁאָר אֲבוֹת הַטֻּמְאוֹת שֶׁל תּוֹרָה שֶׁיִּתְפָּרְשׁוּ בִּמְקוֹמָן:"
+      "original_hebrew": "וְאֵי זֶהוּ הַטָּמֵא שֶׁחַיָּב כָּרֵת עַל הַמִּקְדָּשׁ כָּל שֶׁנִּטְמָא בְּטֻמְאָה מִן הַמֵּת שֶׁהַנָּזִיר מְגַלֵּחַ עָלֶיהָ שֶׁכְּבָר נִתְפָּרֵשׁ בִּנְזִירוּת. אוֹ שֶׁיִּגַּע בָּאָדָם אוֹ בְּכֵלִים שֶׁנִּטְמְאוּ בְּאוֹתָן הַטֻּמְאוֹת שֶׁהַנָּזִיר מְגַלֵּחַ עֲלֵיהֶם שֶׁהֲרֵי הוּא שֵׁנִי לָרִאשׁוֹן שֶׁנָּגַע בְּמֵת. אוֹ שֶׁנִּטְמָא בִּשְׁאָר אֲבוֹת הַטֻּמְאוֹת שֶׁל תּוֹרָה שֶׁיִּתְפָּרְשׁוּ בִּמְקוֹמָן:",
+      "kids_hebrew": "הֲלָכָה זוֹ מְדַבֶּרֶת עַל זְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם. מִי הוּא הַטָּמֵא שֶׁחַיָּב כָּרֵת, עֹנֶשׁ חָמוּר מִשָּׁמַיִם, אִם הוּא נִכְנָס לַמִּקְדָּשׁ בְּעוֹדוֹ טָמֵא? אֵלֶּה הַמִּקְרִים: אֶחָד, מִי שֶׁנִּטְמָא מִן הַמֵּת בְּטֻמְאָה חֲמוּרָה כָּל כָּךְ שֶׁהַנָּזִיר, אָדָם שֶׁנָּדַר לִהְיוֹת קָדוֹשׁ בְּדֶרֶךְ מְיֻחֶדֶת, צָרִיךְ לְגַלֵּחַ אֶת שְׂעָרוֹ וּלְהַתְחִיל מֵחָדָשׁ בִּגְלָלָהּ, כְּמוֹ שֶׁהֻסְבַּר בְּהִלְכוֹת נְזִירוּת. שְׁנַיִם, מִי שֶׁנָּגַע בְּאָדָם אוֹ בְּכֵלִים שֶׁנִּטְמְאוּ בְּאוֹתָהּ טֻמְאָה חֲמוּרָה שֶׁל מֵת, כִּי אָז הוּא נִקְרָא שֵׁנִי לָרִאשׁוֹן שֶׁנָּגַע בַּמֵּת. שְׁלֹשָׁה, מִי שֶׁנִּטְמָא בִּשְׁאָר אַבוֹת הַטֻּמְאָה מִן הַתּוֹרָה, כְּלוֹמַר הַמְּקוֹרוֹת הָעִקָּרִיִּים שֶׁל טֻמְאָה, שֶׁמֻּסְבָּרִים בְּמָקוֹם אַחֵר.",
+      "kids_english": "This law is about the time when the Temple stood in Jerusalem. Which impure person is punished with karet, a severe punishment from Heaven, for entering the Temple while he is tamei, meaning ritually impure? It applies in these cases. First, anyone who became impure from a dead body with an impurity so serious that a nazir, a person who vowed to live in a special holy way for a time, would have to shave his hair and start his vow over because of it, as explained in the laws of nezirut. Second, anyone who touched a person or vessels that had become impure from those same serious impurities from a dead body, because then he counts as a second to the first person who touched the dead body. Third, anyone who became impure through any of the other main sources of impurity from the Torah, called avot ha-tumah, which are explained in their own place.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:10:28.377056+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:10:28.377074+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "14": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:14",
-      "original_hebrew": "כְּלָלוֹ שֶׁל דָּבָר כָּל הַטָּעוּן בִּיאַת מַיִם מִן הַתּוֹרָה חַיָּב כָּרֵת עַל בִּיאַת הַמִּקְדָּשׁ וַאֲפִלּוּ אַחַר שֶׁטָּבַל עַד שֶׁיַּעֲרִיב שִׁמְשׁוֹ. אֲבָל הַמִּתְטַמֵּא בְּטֻמְאוֹת מִן הַמֵּת שֶׁאֵין הַנָּזִיר מְגַלֵּחַ עֲלֵיהֶן אַף עַל פִּי שֶׁהוּא טָמֵא טֻמְאַת שִׁבְעָה הֲרֵי זֶה פָּטוּר עַל בִּיאַת הַמִּקְדָּשׁ:"
+      "original_hebrew": "כְּלָלוֹ שֶׁל דָּבָר כָּל הַטָּעוּן בִּיאַת מַיִם מִן הַתּוֹרָה חַיָּב כָּרֵת עַל בִּיאַת הַמִּקְדָּשׁ וַאֲפִלּוּ אַחַר שֶׁטָּבַל עַד שֶׁיַּעֲרִיב שִׁמְשׁוֹ. אֲבָל הַמִּתְטַמֵּא בְּטֻמְאוֹת מִן הַמֵּת שֶׁאֵין הַנָּזִיר מְגַלֵּחַ עֲלֵיהֶן אַף עַל פִּי שֶׁהוּא טָמֵא טֻמְאַת שִׁבְעָה הֲרֵי זֶה פָּטוּר עַל בִּיאַת הַמִּקְדָּשׁ:",
+      "kids_hebrew": "הַכְּלָל הוּא כָּךְ: כָּל אָדָם שֶׁמִּן הַתּוֹרָה חַיָּב לִטְבֹּל בְּמַיִם כְּדֵי לָצֵאת מִטֻּמְאָתוֹ, אִם הוּא נִכְנָס לַמִּקְדָּשׁ בִּזְמַן שֶׁהַמִּקְדָּשׁ הָיָה קַיָּם כְּשֶׁהוּא עֲדַיִן טָמֵא, הוּא חַיָּב כָּרֵת, שֶׁהוּא עֹנֶשׁ חָמוּר מְאֹד. זֶה נָכוֹן גַּם אִם הוּא כְּבָר טָבַל, כָּל זְמַן שֶׁהַשֶּׁמֶשׁ עֲדַיִן לֹא שָׁקְעָה וְלֹא הִגִּיעַ הַלַּיְלָה. אֲבָל מִי שֶׁנִּטְמָא בְּטֻמְאָה שֶׁבָּאָה מִן הַמֵּת, מִסּוּג שֶׁבִּגְלָלוֹ נָזִיר, אָדָם שֶׁקִּבֵּל עָלָיו נֶדֶר מְיֻחָד, לֹא צָרִיךְ לְגַלֵּחַ אֶת שְׂעָרוֹ, אָז אַף עַל פִּי שֶׁהוּא טָמֵא טֻמְאַת שִׁבְעָה יָמִים, הוּא פָּטוּר, כְּלוֹמַר אֵינוֹ חַיָּב כָּרֵת, עַל כְּנִיסָה לַמִּקְדָּשׁ.",
+      "kids_english": "The general rule is this: Anyone who by Torah law must enter water, meaning dip in a mikveh to leave his impurity, is liable to karet, a very severe punishment of being cut off, if he entered the Sanctuary, the Temple in Jerusalem when it stood, while still impure. This is true even if he already dipped, as long as the sun has not yet set to end the day of his purification. But a person who became impure with a type of impurity from a dead body that does not require a nazir, a person who took a special vow, to shave his hair and start over, is exempt, meaning he is not liable to karet for entering the Sanctuary, even though he is impure with a seven-day impurity.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:11:09.040111+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:11:09.040143+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "15": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 3:15",

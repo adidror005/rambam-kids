@@ -155,39 +155,192 @@
     },
     "8": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:8",
-      "original_hebrew": "וְאֵין הַצִּיץ מְרַצֶּה אֶלָּא בִּזְמַן שֶׁהוּא עַל מִצְחוֹ שֶׁנֶּאֱמַר (שמות כח לח) \"וְהָיָה עַל מִצְחוֹ תָּמִיד לְרָצוֹן לָהֶם לִפְנֵי ה'\":"
+      "original_hebrew": "וְאֵין הַצִּיץ מְרַצֶּה אֶלָּא בִּזְמַן שֶׁהוּא עַל מִצְחוֹ שֶׁנֶּאֱמַר (שמות כח לח) \"וְהָיָה עַל מִצְחוֹ תָּמִיד לְרָצוֹן לָהֶם לִפְנֵי ה'\":",
+      "kids_hebrew": "הַצִּיץ הוּא טַס זָהָב שֶׁהַכֹּהֵן הַגָּדוֹל לוֹבֵשׁ עַל הַמֵּצַח. הוּא גּוֹרֵם לַה׳ לְקַבֵּל אֶת הַקָּרְבָּנוֹת, וְזֶה נִקְרָא מְרַצֶּה. הַצִּיץ מְרַצֶּה רַק כְּשֶׁהוּא מֻנָּח מַמָּשׁ עַל הַמֵּצַח, וְלֹא כְּשֶׁהוּא לֹא עָלָיו. כָּךְ כָּתוּב בַּתּוֹרָה: \"וְהָיָה עַל מִצְחוֹ תָּמִיד לְרָצוֹן לָהֶם לִפְנֵי ה׳\".",
+      "kids_english": "The tzitz is the thin plate of gold worn by the High Priest, the Kohen Gadol, on his forehead. It is meratzeh, which means it makes God accept the offerings with favor. But it works only while it is actually placed on his forehead, not when it is off him. That is what the Torah says: \"And it shall be on his forehead always, to bring them favor before God\" (Exodus 28:38).",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:12:04.528457+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:12:04.528482+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "9": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:9",
-      "original_hebrew": "כָּל קָרְבָּן שֶׁאֵין קָבוּעַ לוֹ זְמַן אֵינוֹ דּוֹחֶה לֹא אֶת הַשַּׁבָּת וְלֹא אֶת הַטֻּמְאָה. שֶׁאִם לֹא יַקְרִיב הַיּוֹם יִקָּרֵב לְמָחָר וּלְמָחֳרַת מָחָר. וְכָל קָרְבָּן שֶׁקָּבוּעַ לוֹ זְמַן בֵּין קָרְבַּן צִבּוּר בֵּין קָרְבַּן יָחִיד דּוֹחֶה אֶת הַשַּׁבָּת וְדוֹחֶה אֶת הַטֻּמְאָה. וְלֹא כָּל הַטֻּמְאוֹת הוּא דּוֹחֶה אֶלָּא טֻמְאַת הַמֵּת לְבַדָּהּ:"
+      "original_hebrew": "כָּל קָרְבָּן שֶׁאֵין קָבוּעַ לוֹ זְמַן אֵינוֹ דּוֹחֶה לֹא אֶת הַשַּׁבָּת וְלֹא אֶת הַטֻּמְאָה. שֶׁאִם לֹא יַקְרִיב הַיּוֹם יִקָּרֵב לְמָחָר וּלְמָחֳרַת מָחָר. וְכָל קָרְבָּן שֶׁקָּבוּעַ לוֹ זְמַן בֵּין קָרְבַּן צִבּוּר בֵּין קָרְבַּן יָחִיד דּוֹחֶה אֶת הַשַּׁבָּת וְדוֹחֶה אֶת הַטֻּמְאָה. וְלֹא כָּל הַטֻּמְאוֹת הוּא דּוֹחֶה אֶלָּא טֻמְאַת הַמֵּת לְבַדָּהּ:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, קָרְבָּן שֶׁאֵין לוֹ זְמַן קָבוּעַ לֹא דּוֹחֶה אֶת הַשַּׁבָּת וְלֹא אֶת הַטֻּמְאָה, כִּי אִם לֹא יַקְרִיבוּ אוֹתוֹ הַיּוֹם, אֶפְשָׁר לְהַקְרִיב אוֹתוֹ מָחָר אוֹ מָחֳרָתַיִם. אֲבָל קָרְבָּן שֶׁיֵּשׁ לוֹ זְמַן קָבוּעַ, בֵּין קָרְבַּן צִבּוּר שֶׁל כָּל הָעָם וּבֵין קָרְבַּן יָחִיד שֶׁל אָדָם אֶחָד, דּוֹחֶה אֶת הַשַּׁבָּת וְדוֹחֶה אֶת הַטֻּמְאָה, כְּלוֹמַר מַקְרִיבִים אוֹתוֹ אֲפִלּוּ בְּשַׁבָּת וַאֲפִלּוּ בְּטֻמְאָה. וְרַק טֻמְאָה אַחַת נִדְחֵית בִּגְלָלוֹ: טֻמְאַת מֵת, שֶׁהִיא טֻמְאָה שֶׁבָּאָה מִמֵּת.",
+      "kids_english": "When the Temple in Jerusalem was standing, a korban — an offering brought there — that had no fixed day had to wait. It did not override Shabbat, when certain kinds of work are forbidden, and it did not override tumah, ritual impurity, because if it was not offered today it could be offered tomorrow or the day after. But a korban that had a fixed day had to be offered on that day, whether it was a communal offering brought for the whole people or an individual's offering brought for one person. That kind of korban did override Shabbat and did override tumah. But it did not override every kind of tumah — only tumat met, the impurity that comes from contact with a dead human body.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:13:15.183715+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:13:15.183747+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "10": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:10",
-      "original_hebrew": "כָּל קָרְבְּנוֹת הַצִּבּוּר קָבוּעַ זְמַנָּם. לְפִיכָךְ כֻּלָּן דּוֹחִין אֶת הַשַּׁבָּת וְאֶת טֻמְאַת הַמֵּת:"
+      "original_hebrew": "כָּל קָרְבְּנוֹת הַצִּבּוּר קָבוּעַ זְמַנָּם. לְפִיכָךְ כֻּלָּן דּוֹחִין אֶת הַשַּׁבָּת וְאֶת טֻמְאַת הַמֵּת:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, קָרְבָּנוֹת הַצִּבּוּר הָיוּ קָרְבָּנוֹת שֶׁהֻקְרְבוּ בִּשְׁבִיל כָּל עַם יִשְׂרָאֵל. לְכָל אֶחָד מֵהֶם הָיָה זְמַן קָבוּעַ שֶׁנִּקְבַּע בַּתּוֹרָה. לָכֵן, גַּם אִם הַזְּמַן חָל בְּשַׁבָּת הָיוּ מַקְרִיבִים אֶת כֻּלָּם, וְגַם אִם הָיְתָה טֻמְאַת מֵת, כְּלוֹמַר טֻמְאָה שֶׁמַּגִּיעָה מִמַּגָּע עִם אָדָם שֶׁמֵּת, הָיוּ מַקְרִיבִים אֶת כֻּלָּם.",
+      "kids_english": "Communal offerings — korbanot ha-tzibbur, sacrifices that were brought in the Temple for the whole people of Israel — all have a fixed time set by the Torah. Therefore all of them were still offered even if that time came on Shabbat, and even if there was tum'at met, ritual impurity from contact with a person who had died.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:14:33.931151+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:14:33.931182+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "11": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:11",
-      "original_hebrew": "וְכָל קָרְבָּן מֵהֶן שֶׁקָּרֵב בְּטֻמְאָה אֵינוֹ נֶאֱכָל. אֶלָּא מַקְטִירִין מִמֶּנּוּ דְּבָרִים הָרְאוּיִין לְהַקְטָרָה וְהַשְּׁאָר הָרָאוּי לַאֲכִילָה נִשְׂרָף כִּשְׁאָר קָדָשִׁים שֶׁנִּטְמְאוּ:"
+      "original_hebrew": "וְכָל קָרְבָּן מֵהֶן שֶׁקָּרֵב בְּטֻמְאָה אֵינוֹ נֶאֱכָל. אֶלָּא מַקְטִירִין מִמֶּנּוּ דְּבָרִים הָרְאוּיִין לְהַקְטָרָה וְהַשְּׁאָר הָרָאוּי לַאֲכִילָה נִשְׂרָף כִּשְׁאָר קָדָשִׁים שֶׁנִּטְמְאוּ:",
+      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, הָיוּ קָרְבְּנוֹת צִבּוּר שֶׁהָיָה מֻתָּר לְהַקְרִיב גַּם בְּטֻמְאָה, שֶׁהִיא חֹסֶר טָהֳרָה לְפִי הַהֲלָכָה. וְכָל קָרְבָּן כָּזֶה שֶׁהֻקְרַב בְּטֻמְאָה, אָסוּר הָיָה לֶאֱכֹל מִמֶּנּוּ. אֶת הַחֲלָקִים שֶׁרְאוּיִים לְהַקְטָרָה, כְּלוֹמַר לִשְׂרֵפָה עַל הַמִּזְבֵּחַ, הָיוּ מַקְטִירִים. וְאֶת הַשְּׁאָר, שֶׁבְּדֶרֶךְ כְּלָל רָאוּי לַאֲכִילָה, הָיוּ שׂוֹרְפִים לְגַמְרֵי כְּמוֹ כָּל בְּשַׂר קֹדֶשׁ שֶׁנִּטְמָא.",
+      "kids_english": "In the time of the Temple, some communal sacrifices, called korbanot, were allowed to be offered even in a state of tumah, which is ritual impurity according to Jewish law. But any such sacrifice offered in tumah could not be eaten. The parts that belonged on the altar were still burned there, which is called haktarah, and the rest, which would normally be fit for eating, was completely burned and destroyed, just like any other holy meat that had become impure.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:15:19.132135+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:15:19.132164+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "12": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:12",
-      "original_hebrew": "כֵּיצַד דּוֹחֶה אֶת הַטֻּמְאָה. הִגִּיעַ זְמַנּוֹ שֶׁל אוֹתוֹ קָרְבָּן וְהָיוּ רֹב הַקָּהָל שֶׁמַּקְרִיבִין אוֹתוֹ טְמֵאִין לְמֵת. אוֹ שֶׁהָיוּ הַקָּהָל טְהוֹרִים וְהָיוּ הַכֹּהֲנִים הַמַּקְרִיבִין טְמֵאִים לְמֵת. אוֹ שֶׁהָיוּ אֵלּוּ וְאֵלּוּ טְהוֹרִין וְהָיוּ כְּלֵי הַשָּׁרֵת טְמֵאִים לְמֵת. הֲרֵי זֶה יֵעָשֶׂה בְּטֻמְאָה וְיִתְעַסְּקוּ בּוֹ הַטְּמֵאִים וְהַטְּהוֹרִים כְּאֶחָד וְיִכָּנְסוּ כֻּלָּן לָעֲזָרָה. אֲבָל הַטְּמֵאִים בְּטֻמְאָה אַחֶרֶת כְּגוֹן זָבִין וְזָבוֹת וְנִדּוֹת [וְיוֹלְדוֹת] וּטְמֵאֵי שֶׁרֶץ וּנְבֵלָה וְכַיּוֹצֵא בָּהֶן. לֹא יִתְעַסְּקוּ וְלֹא יִכָּנְסוּ לָעֲזָרָה וְאַף עַל פִּי שֶׁנַּעֲשָׂה בְּטֻמְאָה. וְאִם עָבְרוּ וְעָשׂוּ אוֹ נִכְנְסוּ לָעֲזָרָה חַיָּבִין כָּרֵת עַל הַבִּיאָה וּמִיתָה עַל הָעֲבוֹדָה. שֶׁלֹּא נִדְחֵית אֶלָּא טֻמְאַת הַמֵּת בִּלְבַד:"
+      "original_hebrew": "כֵּיצַד דּוֹחֶה אֶת הַטֻּמְאָה. הִגִּיעַ זְמַנּוֹ שֶׁל אוֹתוֹ קָרְבָּן וְהָיוּ רֹב הַקָּהָל שֶׁמַּקְרִיבִין אוֹתוֹ טְמֵאִין לְמֵת. אוֹ שֶׁהָיוּ הַקָּהָל טְהוֹרִים וְהָיוּ הַכֹּהֲנִים הַמַּקְרִיבִין טְמֵאִים לְמֵת. אוֹ שֶׁהָיוּ אֵלּוּ וְאֵלּוּ טְהוֹרִין וְהָיוּ כְּלֵי הַשָּׁרֵת טְמֵאִים לְמֵת. הֲרֵי זֶה יֵעָשֶׂה בְּטֻמְאָה וְיִתְעַסְּקוּ בּוֹ הַטְּמֵאִים וְהַטְּהוֹרִים כְּאֶחָד וְיִכָּנְסוּ כֻּלָּן לָעֲזָרָה. אֲבָל הַטְּמֵאִים בְּטֻמְאָה אַחֶרֶת כְּגוֹן זָבִין וְזָבוֹת וְנִדּוֹת [וְיוֹלְדוֹת] וּטְמֵאֵי שֶׁרֶץ וּנְבֵלָה וְכַיּוֹצֵא בָּהֶן. לֹא יִתְעַסְּקוּ וְלֹא יִכָּנְסוּ לָעֲזָרָה וְאַף עַל פִּי שֶׁנַּעֲשָׂה בְּטֻמְאָה. וְאִם עָבְרוּ וְעָשׂוּ אוֹ נִכְנְסוּ לָעֲזָרָה חַיָּבִין כָּרֵת עַל הַבִּיאָה וּמִיתָה עַל הָעֲבוֹדָה. שֶׁלֹּא נִדְחֵית אֶלָּא טֻמְאַת הַמֵּת בִּלְבַד:",
+      "kids_hebrew": "הַהֲלָכָה הַזֹּאת נֶאֶמְרָה עַל זְמַן בֵּית הַמִּקְדָּשׁ. לִפְעָמִים מַגִּיעַ הַזְּמַן שֶׁל קָרְבָּן צִבּוּר שֶׁחַיָּבִים לְהַקְרִיב וְאִי אֶפְשָׁר לְדַחוֹת אוֹתוֹ. אִם רֹב הַצִּבּוּר שֶׁמַּקְרִיב אֶת הַקָּרְבָּן טְמֵאִים בְּטֻמְאַת מֵת, כְּלוֹמַר שֶׁנִּטְמְאוּ מִמַּגָּע עִם אָדָם שֶׁמֵּת, אוֹ אִם הַצִּבּוּר טְהוֹרִים אֲבָל הַכֹּהֲנִים שֶׁמַּקְרִיבִים טְמֵאִים לַמֵּת, אוֹ אִם גַּם הַצִּבּוּר וְגַם הַכֹּהֲנִים טְהוֹרִים אֲבָל כְּלֵי הַשָּׁרֵת, שֶׁהֵם הַכֵּלִים שֶׁמִּשְׁתַּמְּשִׁים בָּהֶם בָּעֲבוֹדָה בַּמִּקְדָּשׁ, טְמֵאִים לַמֵּת, אָז מַקְרִיבִים אֶת הַקָּרְבָּן בְּטֻמְאָה. הַטְּמֵאִים וְהַטְּהוֹרִים עוֹשִׂים אֶת הָעֲבוֹדָה יַחַד, וְכֻלָּם נִכְנָסִים לַעֲזָרָה, שֶׁהִיא הֶחָצֵר שֶׁל בֵּית הַמִּקְדָּשׁ. אֲבָל הֶתֵּר זֶה הוּא רַק לְטֻמְאַת הַמֵּת. מִי שֶׁטָּמֵא בְּטֻמְאָה אַחֶרֶת, כְּמוֹ זָבִים וְזָבוֹת, שֶׁהֵם אֲנָשִׁים עִם זִיבָה מִן הַגּוּף, וְנִדּוֹת, שֶׁהֵן נָשִׁים בִּזְמַן הַוֶּסֶת, וְיוֹלְדוֹת, שֶׁהֵן נָשִׁים אַחֲרֵי לֵדָה, וּמִי שֶׁנִּטְמָא מִשֶּׁרֶץ מֵת אוֹ מִנְּבֵלָה, שֶׁהִיא גּוּף שֶׁל בַּעַל חַיִּים מֵת, וְכָל טֻמְאָה דּוֹמָה, אָסוּר לוֹ לַעֲשׂוֹת אֶת הָעֲבוֹדָה וְאָסוּר לוֹ לְהִכָּנֵס לַעֲזָרָה, אַף עַל פִּי שֶׁהַקָּרְבָּן נַעֲשֶׂה בְּטֻמְאָה. וְאִם הוּא עָבַר וְעָשָׂה אֶת הָעֲבוֹדָה אוֹ נִכְנַס לַעֲזָרָה, הוּא חַיָּב כָּרֵת עַל הַכְּנִיסָה, שֶׁהוּא עֹנֶשׁ חָמוּר מִשָּׁמַיִם, וּמִיתָה בִּידֵי שָׁמַיִם עַל הָעֲבוֹדָה. כִּי רַק טֻמְאַת הַמֵּת נִדְחֵית, וְלֹא שׁוּם טֻמְאָה אַחֶרֶת.",
+      "kids_english": "This rule applied in the time of the Beit HaMikdash, the Temple. Sometimes the set time arrives for a communal offering that must be brought and cannot be delayed. If most of the community bringing the offering are tamei-met, meaning ritually impure from contact with a dead person, or if the community is pure but the kohanim, the priests who perform the offering, are tamei-met, or if both the community and the priests are pure but the klei ha-shareit, the special vessels used for the Temple service, are tamei-met, then the offering is still brought in a state of impurity. The impure and the pure do the work together, and all of them may enter the Azarah, the courtyard of the Temple. But this permission is only for tumat ha-met, impurity from the dead. Anyone impure with a different impurity, such as zavim and zavot, people with certain flows from the body, niddot, women during menstruation, and yoldot, women after childbirth, or one who became impure from a dead sheretz, a crawling creature, or from a nevelah, the body of a dead animal, and similar cases, may not take part in the service and may not enter the Azarah, even though the offering is being done in impurity. If such a person disobeyed and performed the service or entered the Azarah, he is liable to karet, a severe punishment from Heaven, for entering, and to death at the hands of Heaven for performing the service. This is because only impurity from the dead is set aside, and no other impurity is set aside.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:16:23.481466+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:16:23.481503+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "13": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:13",
-      "original_hebrew": "וּפֶסַח שֶׁבָּא בְּטֻמְאָה וְדָחֲקוּ טְמֵאֵי מֵת וְנִכְנְסוּ לַהֵיכָל פְּטוּרִין. אַף עַל פִּי שֶׁלֹּא הֻתְּרוּ אֶלָּא לָעֲזָרָה. הוֹאִיל וְאֵין אֲנִי קוֹרֵא בָּהֶם (במדבר ה ג) \"אֶל מִחוּץ לַמַּחֲנֶה תְּשַׁלְּחוּם\" הֲרֵי אֵלּוּ פְּטוּרִין:"
+      "original_hebrew": "וּפֶסַח שֶׁבָּא בְּטֻמְאָה וְדָחֲקוּ טְמֵאֵי מֵת וְנִכְנְסוּ לַהֵיכָל פְּטוּרִין. אַף עַל פִּי שֶׁלֹּא הֻתְּרוּ אֶלָּא לָעֲזָרָה. הוֹאִיל וְאֵין אֲנִי קוֹרֵא בָּהֶם (במדבר ה ג) \"אֶל מִחוּץ לַמַּחֲנֶה תְּשַׁלְּחוּם\" הֲרֵי אֵלּוּ פְּטוּרִין:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, כְּשֶׁרֹב הָעָם הָיוּ טְמֵאֵי מֵת – כְּלוֹמַר אֲנָשִׁים שֶׁנִּטְמְאוּ מִמַּגָּע עִם מֵת – קָרְבַּן הַפֶּסַח הֻקְרַב בְּטֻמְאָה. אָז הָיָה מֻתָּר לַטְּמֵאִים לְהִכָּנֵס לָעֲזָרָה, הֶחָצֵר שֶׁל בֵּית הַמִּקְדָּשׁ, כְּדֵי לְהַקְרִיב אֶת הַפֶּסַח. אִם מִתּוֹךְ הַדְּחִיקָה הֵם נִכְנְסוּ גַּם לַהֵיכָל, שֶׁהוּא הַמָּקוֹם הַפְּנִימִי יוֹתֵר, הֵם פְּטוּרִים מֵעֹנֶשׁ. זֶה אַף עַל פִּי שֶׁהִתִּירוּ לָהֶם רַק אֶת הָעֲזָרָה וְלֹא אֶת הַהֵיכָל, כִּי אֵין קוֹרְאִים עֲלֵיהֶם כָּאן אֶת הַפָּסוּק אֶל מִחוּץ לַמַּחֲנֶה תְּשַׁלְּחוּם, וְלָכֵן הֵם פְּטוּרִים.",
+      "kids_english": "In the time of the Temple, there was a special law for the Pesach sacrifice, the Passover offering. If most of the people were tamei-met, meaning ritually impure from contact with a dead person, the Pesach was still offered in a state of tumah, ritual impurity. Those impure people were then allowed to enter the Azarah, the Temple courtyard, to offer it. If in the pushing of the crowd they also entered the Heichal, the inner building of the Temple which they were not allowed to enter, they are patur, meaning exempt from punishment. This is true even though they were permitted only in the courtyard and not in the Heichal, because the verse 'send them outside the camp' from Numbers 5:3 does not apply to them here, so they are exempt.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:17:08.722507+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:17:08.722532+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "14": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:14",
-      "original_hebrew": "הָיוּ מִקְצָת בֵּית אָב טְמֵאִים וּמִקְצָתָם טְהוֹרִים אַף עַל פִּי שֶׁרֻבָּן טְמֵאֵי מֵת לֹא יַקְרִיבוּ אֶלָּא הַטְּהוֹרִים. הָיָה כָּל בֵּית הָאָב טְמֵאֵי מֵת יָבִיאוּ בֵּית אָב אַחֵר. הָיְתָה כָּל הַמִּשְׁמָרָה טְמֵאֵי מֵת מַחֲזִירִין עַל מִשְׁמָרָה אַחֶרֶת. אִם הָיוּ רֹב הַכֹּהֲנִים הַנִּכְנָסִין שָׁם בִּירוּשָׁלַיִם בַּזְּמַן הַקָּבוּעַ טְמֵאִין יַעֲשׂוּ בְּטֻמְאָה:"
+      "original_hebrew": "הָיוּ מִקְצָת בֵּית אָב טְמֵאִים וּמִקְצָתָם טְהוֹרִים אַף עַל פִּי שֶׁרֻבָּן טְמֵאֵי מֵת לֹא יַקְרִיבוּ אֶלָּא הַטְּהוֹרִים. הָיָה כָּל בֵּית הָאָב טְמֵאֵי מֵת יָבִיאוּ בֵּית אָב אַחֵר. הָיְתָה כָּל הַמִּשְׁמָרָה טְמֵאֵי מֵת מַחֲזִירִין עַל מִשְׁמָרָה אַחֶרֶת. אִם הָיוּ רֹב הַכֹּהֲנִים הַנִּכְנָסִין שָׁם בִּירוּשָׁלַיִם בַּזְּמַן הַקָּבוּעַ טְמֵאִין יַעֲשׂוּ בְּטֻמְאָה:",
+      "kids_hebrew": "בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ הָיָה קַיָּם, הַכֹּהֲנִים עָבְדוּ לְפִי קְבוּצוֹת. בֵּית אָב הָיָה צֶוֶת קָטָן שֶׁל כֹּהֲנִים שֶׁעָבַד בְּיוֹם מְסֻיָּם, וּמִשְׁמָרָה הָיְתָה קְבוּצָה גְּדוֹלָה שֶׁעָבְדָה בְּאוֹתוֹ שָׁבוּעַ. אִם רַק חֵלֶק מִכֹּהֲנֵי בֵּית הָאָב נִטְמְאוּ בְּטֻמְאַת מֵת, כְּלוֹמַר נַעֲשׂוּ טְמֵאִים בִּגְלַל מֵת, וְהָאֲחֵרִים נִשְׁאֲרוּ טְהוֹרִים, אֲפִלּוּ אִם רֹב הַצֶּוֶת הָיוּ טְמֵאֵי מֵת, רַק הַכֹּהֲנִים הַטְּהוֹרִים הִקְרִיבוּ. אִם כָּל כֹּהֲנֵי אוֹתוֹ בֵּית אָב הָיוּ טְמֵאֵי מֵת, הֵבִיאוּ בֵּית אָב אַחֵר בִּמְקוֹמָם. אִם כָּל הַכֹּהֲנִים שֶׁל אוֹתָהּ מִשְׁמָרָה הָיוּ טְמֵאֵי מֵת, חִפְּשׂוּ מִשְׁמָרָה אַחֶרֶת שֶׁתַּעֲבֹד בִּמְקוֹמָהּ. וְאִם בַּזְּמַן הַקָּבוּעַ לָעֲבוֹדָה, רֹב הַכֹּהֲנִים שֶׁהָיוּ בִּירוּשָׁלַיִם הָיוּ טְמֵאִים, עָשׂוּ אֶת הָעֲבוֹדָה בְּטֻמְאָה.",
+      "kids_english": "When the Temple stood, the priests, called kohanim, served in groups. A beit av was a small family team that served on one day, and a mishmar was a larger weekly group that the beit av belonged to. If only some of the priests in that day's beit av had become tamei-met, impure from contact with a dead person, and the others were still tahor, pure, then only the pure priests offered the sacrifices, even if most of that team was impure. If every priest in that beit av was tamei-met, a different beit av served in their place. If every priest in that whole mishmar was tamei-met, they would bring a different mishmar to serve in its place. But if, at the fixed time for the service, most of the priests who were in Jerusalem were impure, they did the service in a state of impurity.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:18:03.566288+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:18:03.566327+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "15": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:15",
-      "original_hebrew": "וּמִפְּנֵי מָה מַחֲזִירִין עַל הַטָּהוֹר מִבֵּית אָב אַחֵר. מִפְּנֵי שֶׁהַטֻּמְאָה לֹא הֻתְּרָה בַּצִּבּוּר אֶלָּא בְּאִסּוּרָהּ עוֹמֶדֶת וּדְחוּיָה הִיא עַתָּה מִפְּנֵי הַדְּחָק. וְאֵין דּוֹחִין כָּל דָּבָר הַנִּדְחֶה אֶלָּא בְּמָקוֹם שֶׁאִי אֶפְשָׁר. וּמִפְּנֵי זֶה צְרִיכָה צִיץ לְרַצּוֹת עָלֶיהָ:"
+      "original_hebrew": "וּמִפְּנֵי מָה מַחֲזִירִין עַל הַטָּהוֹר מִבֵּית אָב אַחֵר. מִפְּנֵי שֶׁהַטֻּמְאָה לֹא הֻתְּרָה בַּצִּבּוּר אֶלָּא בְּאִסּוּרָהּ עוֹמֶדֶת וּדְחוּיָה הִיא עַתָּה מִפְּנֵי הַדְּחָק. וְאֵין דּוֹחִין כָּל דָּבָר הַנִּדְחֶה אֶלָּא בְּמָקוֹם שֶׁאִי אֶפְשָׁר. וּמִפְּנֵי זֶה צְרִיכָה צִיץ לְרַצּוֹת עָלֶיהָ:",
+      "kids_hebrew": "לָמָּה אֲנַחְנוּ מְחַפְּשִׂים כֹּהֵן טָהוֹר מִבֵּית אָב אַחֵר, כְּלוֹמַר מִקְּבוּצָה אַחֶרֶת שֶׁל כֹּהֲנִים? כִּי הַטֻּמְאָה לֹא הָפְכָה לְמֻתֶּרֶת לְגַמְרֵי בְּקָרְבְּנוֹת הַצִּבּוּר. הִיא עֲדַיִן אֲסוּרָה, אֲבָל דּוֹחִים אוֹתָהּ הַצִּדָּה רַק מִפְּנֵי הַדְּחָק, כְּשֶׁאֵין בְּרֵרָה. וְדָבָר שֶׁרַק נִדְחָה דּוֹחִים אוֹתוֹ רַק בַּמָּקוֹם שֶׁאִי אֶפְשָׁר אַחֶרֶת. לָכֵן גַּם כְּשֶׁמַּקְרִיבִים בְּטֻמְאָה צָרִיךְ אֶת הַצִּיץ, טַס הַזָּהָב שֶׁעַל מִצְחוֹ שֶׁל הַכֹּהֵן הַגָּדוֹל, כְּדֵי שֶׁהַקָּרְבָּן יִתְרַצֶּה וְיִתְקַבֵּל.",
+      "kids_english": "Why do we search for a tahor, pure, kohen from another beit av, another family group of priests serving in the Temple? Because tumah, ritual impurity, was not made fully permitted for communal offerings. It stays forbidden, but it is pushed aside when we are forced by necessity and have no choice. And something that is only pushed aside is pushed aside only where it is impossible to do otherwise. That is why, when an offering in the Temple had to be brought in impurity, the tzitz, the golden plate on the forehead of the High Priest, was still needed to make the offering accepted.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:18:43.682363+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:18:43.682385+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "16": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:16",
-      "original_hebrew": "וּמִנַּיִן שֶׁטֻּמְאַת מֵת דְּחוּיָה בַּצִּבּוּר שֶׁנֶּאֱמַר (במדבר ט ו) \"וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם\". כָּךְ לָמְדוּ מִפִּי הַשְּׁמוּעָה שֶׁאֲנָשִׁים יְחִידִים הֵם שֶׁיִּדָּחוּ לְפֶסַח שֵׁנִי אִם הָיוּ טְמֵאִים. אֲבָל צִבּוּר שֶׁהָיוּ טְמֵאֵי מֵת אֵינָן נִדְחִין אֶלָּא הַטֻּמְאָה תִּדָּחֶה וְיַעֲשׂוּ פֶּסַח בְּטֻמְאָה. וְהוּא הַדִּין לְכָל קָרְבָּן שֶׁקָּבוּעַ לוֹ זְמַן כְּפֶסַח שֶׁהוּא דּוֹחֶה אֶת הַטֻּמְאָה:"
+      "original_hebrew": "וּמִנַּיִן שֶׁטֻּמְאַת מֵת דְּחוּיָה בַּצִּבּוּר שֶׁנֶּאֱמַר (במדבר ט ו) \"וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם\". כָּךְ לָמְדוּ מִפִּי הַשְּׁמוּעָה שֶׁאֲנָשִׁים יְחִידִים הֵם שֶׁיִּדָּחוּ לְפֶסַח שֵׁנִי אִם הָיוּ טְמֵאִים. אֲבָל צִבּוּר שֶׁהָיוּ טְמֵאֵי מֵת אֵינָן נִדְחִין אֶלָּא הַטֻּמְאָה תִּדָּחֶה וְיַעֲשׂוּ פֶּסַח בְּטֻמְאָה. וְהוּא הַדִּין לְכָל קָרְבָּן שֶׁקָּבוּעַ לוֹ זְמַן כְּפֶסַח שֶׁהוּא דּוֹחֶה אֶת הַטֻּמְאָה:",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ, כְּשֶׁהִקְרִיבוּ אֶת קָרְבַּן הַפֶּסַח, הָיָה כְּלָל מְיֻחָד לְטֻמְאַת מֵת, שֶׁהִיא טֻמְאָה שֶׁל מִי שֶׁנָּגַע בְּמֵת. הַתּוֹרָה אוֹמֶרֶת בְּמִדְבָּר פֶּרֶק תֵּשַׁע פָּסוּק שֵׁשׁ: \"וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם\". מִן הַפָּסוּק הַזֶּה לָמְדוּ חֲכָמִים עַל פִּי הַמָּסֹרֶת, שֶׁרַק אֲנָשִׁים יְחִידִים שֶׁהָיוּ טְמֵאִים נִדְחִים לְפֶסַח שֵׁנִי, כְּלוֹמַר עוֹשִׂים אֶת הַפֶּסַח חֹדֶשׁ אֶחָד אַחַר כָּךְ. אֲבָל אִם הַצִּבּוּר הָיוּ טְמֵאֵי מֵת, הֵם לֹא נִדְחִים, אֶלָּא הַטֻּמְאָה נִדְחֵית וְהֵם עוֹשִׂים אֶת הַפֶּסַח בִּזְמַנּוֹ אַף עַל פִּי שֶׁהֵם טְמֵאִים. אוֹתוֹ הַדִּין נוֹהֵג גַּם בְּכָל קָרְבָּן אַחֵר שֶׁיֵּשׁ לוֹ זְמַן קָבוּעַ, כְּמוֹ פֶּסַח, שֶׁהוּא דּוֹחֶה אֶת טֻמְאַת הַמֵּת שֶׁל הַצִּבּוּר.",
+      "kids_english": "In the time of the Temple, when the people brought offerings (korbanot), there was a special rule about tumat met, the impurity that comes after touching a dead person. How do we know that this impurity is pushed aside when the whole community, the tzibbur, needs to bring an offering? The Torah says in Numbers chapter 9, verse 6: \"There were men who were impure from a human corpse.\" Our Sages learned from this verse, following the tradition they received, that only a few individual people who were impure are pushed off to Pesach Sheni, the Second Passover held one month later. But if the community as a whole was impure from a corpse, they are not pushed off. Instead, the impurity itself is pushed aside, and they bring the Passover offering on time even while they are impure. The same rule applies to every other offering that has a fixed time, like Passover: when it belongs to the community, it pushes aside tumat met.",
+      "ai_draft": true,
+      "ai_generation": {
+        "kids_hebrew": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:19:49.022821+00:00",
+          "review_status": "needs_review"
+        },
+        "kids_english": {
+          "model": "muse-spark-1.3-contributor",
+          "provider": "meta",
+          "generated_at": "2026-11-17T07:19:49.022828+00:00",
+          "review_status": "needs_review"
+        }
+      }
     },
     "17": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 4:17",
