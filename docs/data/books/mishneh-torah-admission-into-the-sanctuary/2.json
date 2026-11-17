@@ -303,42 +303,74 @@
     "9": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:9",
       "original_hebrew": "אֵי זֶהוּ אוֹנֵן זֶה שֶׁמֵּת לוֹ מֵת מִן הַקְּרוֹבִים שֶׁהוּא חַיָּב לְהִתְאַבֵּל עֲלֵיהֶן בְּיוֹם הַמִּיתָה בִּלְבַד הוּא הַנִּקְרָא אוֹנֵן דִּין תּוֹרָה. וְלַיְלָה הוּא אוֹנֵן מִדִּבְרֵי סוֹפְרִים:",
-      "kids_hebrew": "מִי נִקְרָא אוֹנֵן? אָדָם שֶׁמֵּת לוֹ קָרוֹב מִשְׁפָּחָה שֶׁהוּא חַיָּב לְהִתְאַבֵּל עָלָיו. בַּיּוֹם שֶׁבּוֹ הַקָּרוֹב מֵת, הוּא נִקְרָא אוֹנֵן מִדִּין תּוֹרָה, כְּלוֹמַר מִן הַתּוֹרָה עַצְמָהּ. בַּלַּיְלָה הוּא נִקְרָא אוֹנֵן רַק מִדִּבְרֵי סוֹפְרִים, כְּלוֹמַר מֵחֹק שֶׁקָּבְעוּ חֲכָמִים. הַדִּין הַזֶּה הָיָה קָשׁוּר לַכְּנִיסָה לַמִּקְדָּשׁ בִּזְמַן בֵּית הַמִּקְדָּשׁ.",
-      "kids_english": "An 'onen' is someone whose close relative — one of the relatives Jewish law says he must mourn for — has died. It is a special status right after the death. On the daytime of the day of the death itself, he is called an 'onen' by Torah law, meaning directly from the Torah. At night he is still called an 'onen,' but only 'midivrei sofrim,' meaning by a rule made by the Sages. This was a law about who could enter the Temple in Jerusalem, not instructions for today.",
+      "kids_hebrew": "מִי נִקְרָא אוֹנֵן? מִי שֶׁמֵּת לוֹ אֶחָד מִן הַקְּרוֹבִים שֶׁהוּא חַיָּב לְהִתְאַבֵּל עֲלֵיהֶם. רַק בְּיוֹם הַמִּיתָה הוּא נִקְרָא אוֹנֵן מִדִּין תּוֹרָה.\n\nבַּלַּיְלָה הַדִּין שׁוֹנֶה. בַּלַּיְלָה הוּא גַּם נִקְרָא אוֹנֵן, אֲבָל רַק מִדִּבְרֵי סוֹפְרִים. זֶהוּ דִּין שֶׁתִּקְּנוּ חֲכָמִים, וְלֹא דִּין תּוֹרָה.",
+      "kids_english": "Who is called an onen? A person whose relative has died, one of the relatives for whom he is obligated to mourn. Only on the day of the death itself, he is called an onen by Torah law.\n\nAt night the rule is different. At night he is also called an onen, but only by Divrei Sofrim. Divrei Sofrim means a law of the Sages, not Torah law.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:53:43.633122+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:51:16.023023+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:51:16.023057+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:53:43.633150+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:51:16.023065+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:51:16.023070+00:00"
+          }
         }
       }
     },
     "10": {
       "ref": "Mishneh Torah, Admission into the Sanctuary 2:10",
       "original_hebrew": "וּמֵת שֶׁשָּׁהָה יָמִים וְאַחַר כָּךְ נִקְבַּר כָּל אוֹתָם הַיָּמִים שֶׁאַחַר יוֹם הַמִּיתָה הוּא אוֹנֵן מִדִּבְרֵיהֶם וְכֵן יוֹם הַקְּבוּרָה וְאֵינוֹ תּוֹפֵשׂ לֵילוֹ. לְפִיכָךְ מִי שֶׁמֵּת לוֹ מֵת (וּקְבָרוֹ) לְאַחַר יוֹם הַמִּיתָה כָּל יוֹם הַקְּבוּרָה אֵינוֹ מַקְרִיב וְאֵינוֹ אוֹכֵל בְּקָדָשִׁים מִדִּבְרֵיהֶם. וְטוֹבֵל וְאוֹכֵל לָעֶרֶב. וְיוֹם שְׁמוּעָה קְרוֹבָה וְיוֹם לִקּוּט עֲצָמוֹת הֲרֵי הוּא כְּיוֹם קְבוּרָה שֶׁאֵינוֹ תּוֹפֵשׂ לֵילוֹ וַאֲפִלּוּ מִדִּבְרֵיהֶם. לְפִיכָךְ טוֹבֵל וְאוֹכֵל בְּקָדָשִׁים לָעֶרֶב. אֲבָל יוֹם הַמִּיתָה כְּשֵׁם שֶׁאָסוּר לֶאֱכל בּוֹ קָדָשִׁים מִן הַתּוֹרָה כָּךְ אָסוּר לֶאֱכל בְּלֵילוֹ מִדִּבְרֵיהֶם. חוּץ מִן הַפֶּסַח בִּלְבַד שֶׁהוּא אוֹכֵל לָעֶרֶב כְּמוֹ שֶׁיִּתְבָּאֵר בִּמְקוֹמוֹ:",
-      "kids_hebrew": "הֲלָכָה זוֹ מְדַבֶּרֶת עַל זְמַן בֵּית הַמִּקְדָּשׁ. אוֹנֵן הוּא אָדָם שֶׁקָּרוֹב מִשְׁפָּחָה שֶׁלּוֹ מֵת וַעֲדַיִן לֹא נִקְבַּר. אָסוּר לוֹ לְהַקְרִיב קָרְבָּנוֹת וְלֶאֱכֹל קֳדָשִׁים, כְּלוֹמַר מַאֲכָלִים קְדוֹשִׁים שֶׁל הַמִּקְדָּשׁ. אִם הַמֵּת נִשְׁאַר כַּמָּה יָמִים בְּלִי קְבוּרָה, כָּל הַיָּמִים שֶׁאַחֲרֵי יוֹם הַמִּיתָה, וְגַם יוֹם הַקְּבוּרָה עַצְמוֹ, הַקָּרוֹב נֶחְשָׁב אוֹנֵן רַק מִדִּבְרֵי חֲכָמִים, כְּלוֹמַר לֹא מִן הַתּוֹרָה אֶלָּא מִדִּין שֶׁל חֲכָמִים. דִּין זֶה שַׁיָּךְ רַק לַיּוֹם, וְהוּא לֹא נִמְשָׁךְ לַלַּיְלָה שֶׁאַחֲרָיו. לָכֵן מִי שֶׁקָּבַר אֶת קְרוֹבוֹ בְּיוֹם אַחֵר וְלֹא בְּיוֹם הַמִּיתָה, אָסוּר לוֹ בְּיוֹם הַקְּבוּרָה לְהַקְרִיב קָרְבָּן מִדִּבְרֵי חֲכָמִים, וְגַם אָסוּר לוֹ לֶאֱכֹל קֳדָשִׁים. הוּא צָרִיךְ לִטְבֹּל, כְּלוֹמַר לַעֲשׂוֹת טְבִילָה בְּמִקְוֶה, וּבָעֶרֶב הוּא כְּבָר מֻתָּר לֶאֱכֹל. גַּם יוֹם שְׁמוּעָה קְרוֹבָה, כְּלוֹמַר הַיּוֹם שֶׁבּוֹ אָדָם שָׁמַע עַל מִיתָה שֶׁל קָרוֹב שֶׁקָּרְתָה לֹא מִזְּמַן, וְגַם יוֹם לִקּוּט עֲצָמוֹת, כְּלוֹמַר הַיּוֹם שֶׁבּוֹ אוֹסְפִים אֶת עַצְמוֹת הַמֵּת כְּדֵי לְהַעֲבִיר אוֹתָן לְקֶבֶר אַחֵר, דִּינָם כְּמוֹ יוֹם הַקְּבוּרָה: הָאִסּוּר חָל רַק בַּיּוֹם, וְלֹא בַּלַּיְלָה, וַאֲפִלּוּ מִדִּבְרֵי חֲכָמִים אֵין אִסּוּר בַּלַּיְלָה. לָכֵן הָאָדָם טוֹבֵל וּמֻתָּר לוֹ לֶאֱכֹל קֳדָשִׁים בָּעֶרֶב. אֲבָל יוֹם הַמִּיתָה עַצְמוֹ חָמוּר יוֹתֵר: כְּמוֹ שֶׁאָסוּר מִן הַתּוֹרָה לֶאֱכֹל קֳדָשִׁים בַּיּוֹם, כָּךְ אָסוּר מִדִּבְרֵי חֲכָמִים לֶאֱכֹל גַּם בַּלַּיְלָה שֶׁאַחֲרָיו. יֵשׁ יוֹצֵא מִן הַכְּלָל אֶחָד בִּלְבַד: קָרְבַּן הַפֶּסַח, שֶׁאוֹתוֹ מֻתָּר לָאוֹנֵן לֶאֱכֹל בָּעֶרֶב, כְּמוֹ שֶׁיֻּסְבַּר בַּהֲלָכוֹת שֶׁל פֶּסַח.",
-      "kids_english": "This law is about the time of the Temple. An onen is a person whose close relative died and has not yet been buried. An onen may not bring an offering and may not eat kodashim, which are the holy foods from the Temple sacrifices. If the dead person waited several days and was buried only later, then all the days after the day of death, and also the day of burial itself, the relative is an onen only by the words of the Sages, meaning by rabbinic law and not by Torah law. This status applies only in the daytime and does not continue into the night after it. Therefore, if someone buried a relative on a day after the day of death, for the whole burial day he may not bring an offering and may not eat kodashim by rabbinic law. He immerses, meaning he dips in a mikveh pool, and in the evening he may eat again. The day of close news, meaning the day a person hears about the death of a relative that happened a short time ago, and the day of gathering bones, meaning the day when the bones of the dead are collected to move them to another grave, have the same rule as the day of burial: forbidden during the day, but permitted at night after immersing, and the ban does not extend into the night even by rabbinic law. Therefore he immerses and may eat kodashim in the evening. But the day of death itself is stricter: just as Torah law forbids eating kodashim during the day, rabbinic law forbids eating them on the night after it. There is only one exception: the Pesach offering, which the onen may eat that evening, as will be explained in the laws of Pesach.",
+      "kids_hebrew": "בִּזְמַן בֵּית הַמִּקְדָּשׁ הָיוּ דִּינִים מְיֻחָדִים לְאוֹנֵן.\nאוֹנֵן הוּא אָדָם שֶׁמֵּת לוֹ קָרוֹב וְהַמֵּת עֲדַיִן לֹא נִקְבַּר.\nהָרַמְבַּ״ם מְלַמֵּד מָתַי הוּא אָסוּר לְהַקְרִיב קָרְבָּן וּמָתַי אָסוּר לוֹ לֶאֱכֹל קֳדָשִׁים.\nקֳדָשִׁים הֵם מַאֲכָלִים קְדוֹשִׁים שֶׁל בֵּית הַמִּקְדָּשׁ.\n\nהַמִּקְרֶה הָרִאשׁוֹן הוּא יוֹם הַמִּיתָה עַצְמוֹ.\nבְּיוֹם הַזֶּה אָסוּר לֶאֱכֹל קֳדָשִׁים מִן הַתּוֹרָה.\nגַּם בַּלַּיְלָה שֶׁאַחֲרָיו אָסוּר לֶאֱכֹל קֳדָשִׁים, אֲבָל הָאִסּוּר הוּא מִדִּבְרֵיהֶם.\nמִדִּבְרֵיהֶם פֵּרוּשׁוֹ דִּין שֶׁקָּבְעוּ חֲכָמִים, לֹא דִּין מִן הַתּוֹרָה.\n\nיֵשׁ יוֹצֵא מִן הַכְּלָל אֶחָד בִּלְבַד.\nבַּלַּיְלָה שֶׁאַחֲרֵי יוֹם הַמִּיתָה הָאוֹנֵן אוֹכֵל מִקָּרְבַּן הַפֶּסַח לָעֶרֶב.\nאֶת פְּרָטֵי הַדִּין הַזֶּה הָרַמְבַּ״ם יְבָאֵר בְּמָקוֹם אַחֵר.\n\nאִם הַמֵּת נִשְׁאַר יָמִים בְּלִי קְבוּרָה וְרַק אַחַר כָּךְ נִקְבַּר, יֵשׁ דִּין אַחֵר.\nכָּל אוֹתָם הַיָּמִים שֶׁאַחֲרֵי יוֹם הַמִּיתָה הָאָדָם הוּא אוֹנֵן מִדִּבְרֵיהֶם.\nוְכֵן גַּם יוֹם הַקְּבוּרָה הוּא אוֹנֵן מִדִּבְרֵיהֶם.\n\nמִי שֶׁקָּבַר אֶת מֵתוֹ אַחֲרֵי יוֹם הַמִּיתָה, כָּל יוֹם הַקְּבוּרָה אֵינוֹ מַקְרִיב וְאֵינוֹ אוֹכֵל בְּקָדָשִׁים מִדִּבְרֵיהֶם.\nיוֹם הַקְּבוּרָה אֵינוֹ תּוֹפֵשׂ אֶת לֵילוֹ.\nהָאֲנִינוּת שֶׁל הַיּוֹם לֹא נִמְשֶׁכֶת לַלַּיְלָה.\nהוּא טוֹבֵל בַּמַּיִם וְאוֹכֵל לָעֶרֶב.\n\nיוֹם שְׁמוּעָה קְרוֹבָה וְיוֹם לִקּוּט עֲצָמוֹת דִּינָם כְּמוֹ יוֹם קְבוּרָה.\nשְׁמוּעָה קְרוֹבָה הִיא בְּשׂוֹרָה שֶׁמַּגִּיעָה סָמוּךְ לַמָּוֶת, וְלִקּוּט עֲצָמוֹת הוּא אֲסִיפַת עַצְמוֹת הַמֵּת כְּדֵי לְקָבְרָם.\nגַּם יָמִים אֵלֶּה אֵינָם תּוֹפְשִׂים אֶת לֵילָם, אֲפִלּוּ לֹא מִדִּבְרֵיהֶם.\nלָכֵן הָאָדָם טוֹבֵל וְאוֹכֵל בְּקָדָשִׁים לָעֶרֶב.",
+      "kids_english": "In the time of the Beit HaMikdash, the Temple, there were special laws for an onen.\nAn onen is a person whose close relative died and has not yet been buried.\nThe Rambam teaches when he is forbidden to offer a korban, a sacrifice, and when he is forbidden to eat kodashim.\nKodashim are holy Temple foods.\n\nThe first and strictest case is the day of death itself.\nOn that day it is forbidden to eat kodashim by Torah law.\nOn the night after it, it is also forbidden to eat kodashim, but that ban is midivreihem.\nMidivreihem means a rule made by the Sages, not a rule from the Torah.\n\nThere is only one exception to this night rule.\nOn the night after the day of death, the onen eats from the korban Pesach, the Passover offering, in the evening.\nThe Rambam will explain the details of that law in another place.\n\nIf the dead person remained unburied for days and was buried only later, there is a different law.\nAll those days after the day of death, the person is an onen by rabbinic law, midivreihem.\nThe day of burial is also a time of being an onen by rabbinic law.\n\nIf a person buried his dead after the day of death, then for the whole day of burial he does not offer a sacrifice and does not eat kodashim by rabbinic law.\nThe day of burial does not take hold of its night.\nThat means the aninut, the state of being an onen, does not continue into the night.\nHe immerses, tovel in water, and eats in the evening.\n\nThe day of shemuah kerovah, close news, and the day of likut atzamot, gathering bones, have the same law as the day of burial.\nShemuah kerovah is news of a death that arrives close to the time of death, and likut atzamot is collecting the bones of the dead to bury them again.\nThese days also do not take hold of their night, not even by rabbinic law.\nSo the person immerses and eats kodashim in the evening.",
       "ai_draft": true,
       "ai_generation": {
         "kids_hebrew": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:54:46.301890+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:54:02.484884+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:54:02.484901+00:00"
+          }
         },
         "kids_english": {
           "model": "muse-spark-1.3-contributor",
           "provider": "meta",
-          "generated_at": "2026-11-17T06:54:46.301927+00:00",
-          "review_status": "needs_review"
+          "generated_at": "2026-11-17T08:54:02.484905+00:00",
+          "review_status": "needs_review",
+          "prompt_version": "kids-adaptation-v4-cross-case-2026-11-17",
+          "automatic_check": {
+            "status": "pass",
+            "issues": [],
+            "check_version": "source-nuance-check-v2-cross-case-2026-11-17",
+            "model": "muse-spark-1.3-contributor",
+            "checked_at": "2026-11-17T08:54:02.484908+00:00"
+          }
         }
       }
     },

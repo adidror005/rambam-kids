@@ -4,8 +4,10 @@ Default: generate only missing kids_hebrew/kids_english fields. --regenerate
 refreshes older, attributable AI drafts; approved or untracked text is protected.
 
 Every new generation receives a second, source-based AI nuance check by default.
-If the check flags a material problem, the candidate is NOT published to chapter
-JSON. --audit-existing checks older adaptations without changing their text.
+If the check flags a material problem, Muse automatically revises the draft using
+specific verifier feedback, then verifies again (up to --max-revisions times).
+Only verified candidates are published. --audit-existing checks older drafts
+without changing their text.
 
 The AI check is only a screening aid: human/rabbinic review is still required.
 """
@@ -24,7 +26,7 @@ from common import BOOKS, ROOT, load_json, rebuild_manifest, write_json
 
 META_URL = "https://api.meta.ai/v1"
 TARGETS = ("kids_hebrew", "kids_english")
-PROMPT_VERSION = "kids-adaptation-v4-cross-case-2026-11-17"
+PROMPT_VERSION = "kids-adaptation-v5-auto-repair-2026-11-17"
 CHECK_VERSION = "source-nuance-check-v2-cross-case-2026-11-17"
 
 INSTRUCTIONS = """You are faithfully adapting ONE passage from Rambam's Mishneh Torah
@@ -76,6 +78,10 @@ kids_hebrew: Modern, grammatical Hebrew WITH niqqud. Use short paragraphs
 separated by two newlines within the JSON string. Preserve key Hebrew terms.
 kids_english: Fluent, child-accessible English, same precise legal content.
 Briefly explain specialized Hebrew terms when needed, in short paragraphs.
+
+When correcting a flagged draft, treat the source as authoritative and use the
+provided critique to identify the precise problem. Fix that problem without
+removing unrelated true distinctions or adding unsupported rulings.
 
 Respond ONLY with one valid JSON object containing exactly the requested keys
 and string values, without markdown fences or commentary. These remain drafts
@@ -275,9 +281,34 @@ def model_output(client, model: str, instructions: str, input_text: str) -> str:
     return output
 
 
-def generate(client, model: str, ref: str, original: str, fields: list[str]) -> dict[str, str]:
+def generate(client, model: str, ref: str, original: str, fields: list[str],
+             prior_issues: dict[str, list[str]] | None = None) -> dict[str, str]:
     prompt = (f"Reference: {ref}\nOriginal Hebrew:\n{original}\n\n"
               f"Return exactly these JSON keys: {json.dumps(fields, ensure_ascii=False)}")
+    if prior_issues:
+        prompt += ("\n\nPrior failed verification feedback from an earlier run "
+                   "(check against the source, and avoid repeating those mistakes):\n"
+                   + json.dumps(prior_issues, ensure_ascii=False))
+    return parse_response(model_output(client, model, INSTRUCTIONS, prompt), fields)
+
+
+def revise(client, model: str, ref: str, original: str,
+           candidates: dict[str, str], feedback: dict[str, list[str]]) -> dict[str, str]:
+    """Rewrite ONLY the rejected languages using explicit feedback and the source."""
+    fields = list(candidates)
+    prompt = (
+        f"Reference: {ref}\n"
+        f"ORIGINAL HEBREW (authoritative):\n{original}\n\n"
+        f"Rejected draft adaptations:\n{json.dumps(candidates, ensure_ascii=False)}\n\n"
+        f"Specific source-check issues for each rejected adaptation:\n"
+        f"{json.dumps(feedback, ensure_ascii=False)}\n\n"
+        "Correct EACH specified error. Recheck every general statement against all "
+        "later exceptions in the ORIGINAL. Preserve every valid legal distinction, "
+        "including permission versus exemption. Do not merely append a disclaimer. "
+        "Do not copy unsupported advice from the feedback if the original does not "
+        "justify it. Return COMPLETE replacements, not patches or commentary.\n"
+        f"Return exactly these JSON keys: {json.dumps(fields, ensure_ascii=False)}"
+    )
     return parse_response(model_output(client, model, INSTRUCTIONS, prompt), fields)
 
 
@@ -288,6 +319,85 @@ def check_adaptations(client, model: str, ref: str, original: str,
               f"Adaptations to check:\n{json.dumps(adaptations, ensure_ascii=False)}\n\n"
               f"Return results for exactly these keys: {json.dumps(fields, ensure_ascii=False)}")
     return parse_checks(model_output(client, model, CHECK_INSTRUCTIONS, prompt), fields)
+
+
+def generate_with_repairs(client, model: str, check_model: str, ref: str,
+                          original: str, fields: list[str], max_revisions: int,
+                          no_verify: bool = False,
+                          prior_issues: dict[str, list[str]] | None = None
+                          ) -> tuple[dict[str, dict], dict[str, dict], str | None]:
+    """Generate -> check -> revise flagged fields -> re-check, with a strict cap.
+
+    Returns (accepted, rejected, error). Accepted entries have candidate text,
+    verified verdict, and revision count. Rejected entries contain source-check
+    issues and revision count, never publishable candidate text.
+    """
+    candidates = generate(client, model, ref, original, fields, prior_issues)
+    if no_verify:
+        return ({field: {"text": candidates[field], "check":
+                         {"status": "not_run", "issues": []}, "revisions": 0}
+                 for field in fields}, {}, None)
+
+    accepted: dict[str, dict] = {}
+    pending = list(fields)
+    issues: dict[str, list[str]] = {}
+    history: dict[str, list[str]] = {field: [] for field in fields}
+    revisions: dict[str, int] = {field: 0 for field in fields}
+    error: str | None = None
+
+    # round 0 is the initial candidate; other rounds are feedback-based revisions.
+    for round_number in range(max_revisions + 1):
+        if round_number:
+            for field in pending:
+                revisions[field] += 1
+            try:
+                rewritten = revise(client, model, ref, original,
+                                    {field: candidates[field] for field in pending},
+                                    {field: issues[field] for field in pending})
+                candidates.update(rewritten)
+            except Exception as exc:
+                error = f"Correction call failed: {exc}"
+                for field in pending:
+                    issues[field] = issues.get(field, []) + [error]
+                break
+        try:
+            checks = check_adaptations(client, check_model, ref, original,
+                                        {field: candidates[field] for field in pending})
+        except Exception as exc:
+            error = f"Verification call failed: {exc}"
+            for field in pending:
+                issues[field] = issues.get(field, []) + [error]
+            break
+
+        flagged = []
+        for field in pending:
+            verdict = checks[field]
+            if verdict["status"] == "pass":
+                accepted[field] = {"text": candidates[field], "check": verdict,
+                                   "revisions": revisions[field],
+                                   "previous_issues": history[field]}
+                if revisions[field]:
+                    print(f"  FIXED {field} after {revisions[field]} revision(s)", flush=True)
+            else:
+                issues[field] = verdict["issues"]
+                history[field].extend(verdict["issues"])
+                flagged.append(field)
+                if round_number < max_revisions:
+                    print(f"  REVISING {field} ({round_number + 1}/{max_revisions}): "
+                          f"{'; '.join(verdict['issues'])}", flush=True)
+        pending = flagged
+        if not pending:
+            break
+
+    rejected = {}
+    for field in pending:
+        rejected[field] = {"issues": issues.get(field, ["Verification failed"]),
+                           "revisions": revisions[field],
+                           "previous_issues": history[field]}
+        print(f"  FLAGGED {field} after {revisions[field]} revision(s): "
+              f"{'; '.join(rejected[field]['issues'])}",
+              file=sys.stderr, flush=True)
+    return accepted, rejected, error
 
 
 def select_paths(args) -> list[Path]:
@@ -330,7 +440,7 @@ def run(args, client=None) -> tuple[int, int, int]:
     if not paths:
         print("No downloaded chapter JSON found. Run fetch_sefaria.py first.")
         return 0, 0, 0
-    attempts = successful = flagged = failures = 0
+    attempts = successful = flagged = failures = repaired = 0
     changed = False
     try:
         for path in paths:
@@ -352,64 +462,86 @@ def run(args, client=None) -> tuple[int, int, int]:
                     continue
                 try:
                     original = segment["original_hebrew"]
-                    if args.audit_existing:
-                        candidates = {key: segment[key] for key in fields}
-                    else:
-                        candidates = generate(client, args.model, ref, original, fields)
-                    checks = (check_adaptations(client, args.check_model or args.model,
-                                                ref, original, candidates)
-                              if not args.no_verify else
-                              {key: {"status": "not_run", "issues": []} for key in fields})
-
+                    check_model = args.check_model or args.model
                     meta = segment.setdefault("ai_generation", {})
-                    for field in fields:
-                        item = meta.setdefault(field, {})
-                        verdict = checks[field]
-                        if verdict["status"] == "flag":
-                            flagged += 1
-                            print(f"  FLAGGED {field}: {'; '.join(verdict['issues'])}",
-                                  file=sys.stderr, flush=True)
-                            if args.audit_existing:
-                                # Audit marks risk but leaves displayed text unchanged.
-                                item["automatic_check"] = {
-                                    **verdict, "check_version": CHECK_VERSION,
-                                    "model": args.check_model or args.model,
-                                    "checked_at": now_iso(),
-                                }
+                    if args.audit_existing:
+                        # Audits only annotate the current text; they never rewrite it.
+                        checks = check_adaptations(client, check_model, ref, original,
+                                                    {key: segment[key] for key in fields})
+                        for field in fields:
+                            item = meta.setdefault(field, {})
+                            verdict = checks[field]
+                            item["automatic_check"] = {
+                                **verdict, "check_version": CHECK_VERSION,
+                                "model": check_model, "checked_at": now_iso(),
+                            }
+                            if verdict["status"] == "flag":
+                                flagged += 1
                                 item["review_status"] = "flagged"
+                                print(f"  FLAGGED {field}: {'; '.join(verdict['issues'])}",
+                                      file=sys.stderr, flush=True)
                             else:
-                                # Do not publish rejected draft; keep existing version.
-                                item["last_rejected_attempt"] = {
-                                    "prompt_version": PROMPT_VERSION,
-                                    "issues": verdict["issues"],
-                                    "attempted_at": now_iso(),
-                                }
-                            continue
-                        if not args.audit_existing:
-                            segment[field] = candidates[field]
+                                item["review_status"] = "needs_review"
+                                successful += 1
+                    else:
+                        prior_issues = {}
+                        for field in fields:
+                            rejection = (meta.get(field) or {}).get("last_rejected_attempt") or {}
+                            if rejection.get("issues"):
+                                prior_issues[field] = rejection["issues"]
+                        accepted, rejected, error = generate_with_repairs(
+                            client, args.model, check_model, ref, original, fields,
+                            max_revisions=args.max_revisions, no_verify=args.no_verify,
+                            prior_issues=prior_issues or None)
+                        if error:
+                            failures += 1
+                            print(f"  ERROR: {error}", file=sys.stderr, flush=True)
+                        for field, result in accepted.items():
+                            item = meta.setdefault(field, {})
+                            segment[field] = result["text"]
                             item.update({
                                 "model": args.model, "provider": args.provider,
                                 "prompt_version": PROMPT_VERSION,
                                 "generated_at": now_iso(),
                                 "review_status": "needs_review",
+                                "automatic_correction": {
+                                    "revisions": result["revisions"],
+                                    "resolved_issues": result["previous_issues"],
+                                },
                             })
                             item.pop("last_rejected_attempt", None)
+                            item["automatic_check"] = {
+                                **result["check"],
+                                "check_version": CHECK_VERSION if not args.no_verify else None,
+                                "model": check_model if not args.no_verify else None,
+                                "checked_at": now_iso() if not args.no_verify else None,
+                            }
                             segment["ai_draft"] = True
-                        item["automatic_check"] = {
-                            **verdict,
-                            "check_version": CHECK_VERSION if not args.no_verify else None,
-                            "model": args.check_model or args.model if not args.no_verify else None,
-                            "checked_at": now_iso() if not args.no_verify else None,
-                        }
-                        if args.audit_existing:
-                            item["review_status"] = "needs_review"
-                        successful += 1
-                    # One atomic chapter write per passage; handles partial acceptance.
+                            successful += 1
+                            if result["revisions"]:
+                                repaired += 1
+                        for field, result in rejected.items():
+                            flagged += 1
+                            # KEEP previous displayed text, even after all retries.
+                            item = meta.setdefault(field, {})
+                            item["last_rejected_attempt"] = {
+                                "prompt_version": PROMPT_VERSION,
+                                "issues": result["issues"],
+                                "revisions_attempted": result["revisions"],
+                                "previous_issues": result["previous_issues"],
+                                "attempted_at": now_iso(),
+                            }
+                    # Save all successful fields even if another language was rejected.
                     write_json(path, doc)
                     changed = True
+                    if not args.audit_existing and error and args.fail_fast:
+                        raise RuntimeError(error)
                 except Exception as exc:
-                    failures += 1
-                    print(f"  ERROR: {exc}", file=sys.stderr, flush=True)
+                    # Errors in initial generation/check leave displayed text unchanged.
+                    if not (isinstance(exc, RuntimeError) and str(exc).startswith((
+                            "Correction call failed:", "Verification call failed:"))):
+                        failures += 1
+                        print(f"  ERROR: {exc}", file=sys.stderr, flush=True)
                     if args.fail_fast:
                         raise
                 if args.delay:
@@ -417,17 +549,19 @@ def run(args, client=None) -> tuple[int, int, int]:
             if args.limit is not None and attempts >= args.limit:
                 break
     except KeyboardInterrupt:
-        print("\nInterrupted. Accepted adaptations and check results were saved.", file=sys.stderr)
+        print("\nInterrupted. Previously accepted adaptations were already saved.",
+              file=sys.stderr)
     finally:
         if changed:
             rebuild_manifest()
     if args.dry_run:
         print(f"Dry run: {attempts} passages selected. No API calls or writes.")
     else:
-        print(f"Accepted/audited {successful} fields; flagged {flagged}; API errors {failures}.")
+        print(f"Accepted/audited {successful} fields; auto-fixed {repaired}; "
+              f"still flagged {flagged}; API errors {failures}.")
         if flagged:
-            print("Flagged fields require review. Rejected new drafts were not published.")
-        print("Rerun to continue; completed or flagged same-version attempts are skipped.")
+            print("Unresolved fields require review; old drafts were not overwritten.")
+        print("Rerun to continue; completed or same-version rejected fields are skipped.")
     return successful, flagged, failures
 
 
@@ -445,11 +579,13 @@ def main(argv=None):
                       help="Check existing adaptations without changing their text")
     parser.add_argument("--force-audit", action="store_true", help="Recheck even if already audited")
     parser.add_argument("--retry-flagged", action="store_true", help="Retry previously rejected generated drafts")
+    parser.add_argument("--max-revisions", type=int, default=2,
+                        help="Maximum feedback-driven correction attempts after generation (default: 2)")
     parser.add_argument("--no-verify", action="store_true",
                         help="Skip the second AI check (NOT recommended for publication)")
     parser.add_argument("--limit", type=int, help="Maximum number of passages to attempt")
     parser.add_argument("--provider", choices=("meta", "openai"), default="meta")
-    parser.add_argument("--model", help="Generation model (Meta default: muse-spark-1.3)")
+    parser.add_argument("--model", help="Generation model (Meta default: muse-spark-1.3-contributor)")
     parser.add_argument("--check-model", help="Model used for independent second call (same provider)")
     parser.add_argument("--base-url", help="Optional OpenAI-compatible base URL")
     parser.add_argument("--delay", type=float, default=0.25, help="Seconds between passages")
@@ -470,6 +606,8 @@ def main(argv=None):
         parser.error("--limit must be >= 1")
     if args.delay < 0:
         parser.error("--delay must be >= 0")
+    if args.max_revisions < 0:
+        parser.error("--max-revisions must be >= 0")
     if not args.model:
         args.model = "muse-spark-1.3-contributor" if args.provider == "meta" else "gpt-5-mini"
     if args.list_flags:
