@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "books": [
+    {
+      "title": "Mishneh Torah, Transmission of the Oral Law",
+      "he_title": "משנה תורה, מסירת תורה שבעל פה",
+      "chapters": 1
+    },
+    {
+      "title": "Mishneh Torah, Positive Mitzvot",
+      "he_title": "משנה תורה, מצוות עשה",
+      "chapters": 1
+    },
+    {
+      "title": "Mishneh Torah, Negative Mitzvot",
+      "he_title": "משנה תורה, מצוות לא תעשה",
+      "chapters": 1
+    },
+    {
+      "title": "Mishneh Torah, Overview of Mishneh Torah Contents",
+      "he_title": "משנה תורה, תוכן החיבור",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Foundations of the Torah",
+      "he_title": "משנה תורה, הלכות יסודי התורה",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Human Dispositions",
+      "he_title": "משנה תורה, הלכות דעות",
+      "chapters": 7
+    },
+    {
+      "title": "Mishneh Torah, Torah Study",
+      "he_title": "משנה תורה, הלכות תלמוד תורה",
+      "chapters": 7
+    },
+    {
+      "title": "Mishneh Torah, Foreign Worship and Customs of the Nations",
+      "he_title": "משנה תורה, הלכות עבודה זרה וחוקות הגויים",
+      "chapters": 12
+    },
+    {
+      "title": "Mishneh Torah, Repentance",
+      "he_title": "משנה תורה, הלכות תשובה",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Reading the Shema",
+      "he_title": "משנה תורה, הלכות קריאת שמע",
+      "chapters": 4
+    },
+    {
+      "title": "Mishneh Torah, Prayer and the Priestly Blessing",
+      "he_title": "משנה תורה, הלכות תפילה וברכת כהנים",
+      "chapters": 15
+    },
+    {
+      "title": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",
+      "he_title": "משנה תורה, הלכות תפילין ומזוזה וספר תורה",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Fringes",
+      "he_title": "משנה תורה, הלכות ציצית",
+      "chapters": 3
+    },
+    {
+      "title": "Mishneh Torah, Blessings",
+      "he_title": "משנה תורה, הלכות ברכות",
+      "chapters": 11
+    },
+    {
+      "title": "Mishneh Torah, Circumcision",
+      "he_title": "משנה תורה, הלכות מילה",
+      "chapters": 3
+    },
+    {
+      "title": "Mishneh Torah, The Order of Prayer",
+      "he_title": "משנה תורה, סדר התפילה",
+      "chapters": 5
+    },
+    {
+      "title": "Mishneh Torah, Sabbath",
+      "he_title": "משנה תורה, הלכות שבת",
+      "chapters": 30
+    },
+    {
+      "title": "Mishneh Torah, Eruvin",
+      "he_title": "משנה תורה, הלכות עירובין",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Rest on the Tenth of Tishrei",
+      "he_title": "משנה תורה, הלכות שביתת עשור",
+      "chapters": 3
+    },
+    {
+      "title": "Mishneh Torah, Rest on a Holiday",
+      "he_title": "משנה תורה, הלכות שביתת יום טוב",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Leavened and Unleavened Bread",
+      "he_title": "משנה תורה, הלכות חמץ ומצה",
+      "chapters": 9
+    },
+    {
+      "title": "Mishneh Torah, Shofar, Sukkah and Lulav",
+      "he_title": "משנה תורה, הלכות שופר וסוכה ולולב",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Sheqel Dues",
+      "he_title": "משנה תורה, הלכות שקלים",
+      "chapters": 4
+    },
+    {
+      "title": "Mishneh Torah, Sanctification of the New Month",
+      "he_title": "משנה תורה, הלכות קידוש החודש",
+      "chapters": 19
+    },
+    {
+      "title": "Mishneh Torah, Fasts",
+      "he_title": "משנה תורה, הלכות תעניות",
+      "chapters": 5
+    },
+    {
+      "title": "Mishneh Torah, Scroll of Esther and Hanukkah",
+      "he_title": "משנה תורה, הלכות מגילה וחנוכה",
+      "chapters": 4
+    },
+    {
+      "title": "Mishneh Torah, Marriage",
+      "he_title": "משנה תורה, הלכות אישות",
+      "chapters": 25
+    },
+    {
+      "title": "Mishneh Torah, Divorce",
+      "he_title": "משנה תורה, הלכות גירושין",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, Levirate Marriage and Release",
+      "he_title": "משנה תורה, הלכות יבום וחליצה",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Virgin Maiden",
+      "he_title": "משנה תורה, הלכות נערה בתולה",
+      "chapters": 3
+    },
+    {
+      "title": "Mishneh Torah, Woman Suspected of Infidelity",
+      "he_title": "משנה תורה, הלכות סוטה",
+      "chapters": 4
+    },
+    {
+      "title": "Mishneh Torah, Forbidden Intercourse",
+      "he_title": "משנה תורה, הלכות איסורי ביאה",
+      "chapters": 22
+    },
+    {
+      "title": "Mishneh Torah, Forbidden Foods",
+      "he_title": "משנה תורה, הלכות מאכלות אסורות",
+      "chapters": 17
+    },
+    {
+      "title": "Mishneh Torah, Ritual Slaughter",
+      "he_title": "משנה תורה, הלכות שחיטה",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Oaths",
+      "he_title": "משנה תורה, הלכות שבועות",
+      "chapters": 12
+    },
+    {
+      "title": "Mishneh Torah, Vows",
+      "he_title": "משנה תורה, הלכות נדרים",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, Nazariteship",
+      "he_title": "משנה תורה, הלכות נזירות",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Appraisals and Devoted Property",
+      "he_title": "משנה תורה, הלכות ערכים וחרמין",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Diverse Species",
+      "he_title": "משנה תורה, הלכות כלאים",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Gifts to the Poor",
+      "he_title": "משנה תורה, הלכות מתנות עניים",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Heave Offerings",
+      "he_title": "משנה תורה, הלכות תרומות",
+      "chapters": 15
+    },
+    {
+      "title": "Mishneh Torah, Tithes",
+      "he_title": "משנה תורה, הלכות מעשרות",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Second Tithes and Fourth Year's Fruit",
+      "he_title": "משנה תורה, הלכות מעשר שני ונטע רבעי",
+      "chapters": 11
+    },
+    {
+      "title": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",
+      "he_title": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין",
+      "chapters": 12
+    },
+    {
+      "title": "Mishneh Torah, Sabbatical Year and the Jubilee",
+      "he_title": "משנה תורה, הלכות שמיטה ויובל",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, The Chosen Temple",
+      "he_title": "משנה תורה, הלכות בית הבחירה",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein",
+      "he_title": "משנה תורה, הלכות כלי המקדש והעובדין בו",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Admission into the Sanctuary",
+      "he_title": "משנה תורה, הלכות ביאת מקדש",
+      "chapters": 9
+    },
+    {
+      "title": "Mishneh Torah, Things Forbidden on the Altar",
+      "he_title": "משנה תורה, הלכות איסורי המזבח",
+      "chapters": 7
+    },
+    {
+      "title": "Mishneh Torah, Sacrificial Procedure",
+      "he_title": "משנה תורה, הלכות מעשה הקרבנות",
+      "chapters": 19
+    },
+    {
+      "title": "Mishneh Torah, Daily Offerings and Additional Offerings",
+      "he_title": "משנה תורה, הלכות תמידים ומוספין",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Sacrifices Rendered Unfit",
+      "he_title": "משנה תורה, הלכות פסולי המוקדשין",
+      "chapters": 19
+    },
+    {
+      "title": "Mishneh Torah, Service on the Day of Atonement",
+      "he_title": "משנה תורה, הלכות עבודת יום הכפורים",
+      "chapters": 5
+    },
+    {
+      "title": "Mishneh Torah, Trespass",
+      "he_title": "משנה תורה, הלכות מעילה",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Paschal Offering",
+      "he_title": "משנה תורה, הלכות קרבן פסח",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Festival Offering",
+      "he_title": "משנה תורה, הלכות חגיגה",
+      "chapters": 3
+    },
+    {
+      "title": "Mishneh Torah, Firstlings",
+      "he_title": "משנה תורה, הלכות בכורות",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Offerings for Unintentional Transgressions",
+      "he_title": "משנה תורה, הלכות שגגות",
+      "chapters": 15
+    },
+    {
+      "title": "Mishneh Torah, Offerings for Those with Incomplete Atonement",
+      "he_title": "משנה תורה, הלכות מחוסרי כפרה",
+      "chapters": 5
+    },
+    {
+      "title": "Mishneh Torah, Substitution",
+      "he_title": "משנה תורה, הלכות תמורה",
+      "chapters": 4
+    },
+    {
+      "title": "Mishneh Torah, Defilement by a Corpse",
+      "he_title": "משנה תורה, הלכות טומאת מת",
+      "chapters": 25
+    },
+    {
+      "title": "Mishneh Torah, Red Heifer",
+      "he_title": "משנה תורה, הלכות פרה אדומה",
+      "chapters": 15
+    },
+    {
+      "title": "Mishneh Torah, Defilement by Leprosy",
+      "he_title": "משנה תורה, הלכות טומאת צרעת",
+      "chapters": 16
+    },
+    {
+      "title": "Mishneh Torah, Those Who Defile Bed or Seat",
+      "he_title": "משנה תורה, הלכות מטמאי משכב ומושב",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, Other Sources of Defilement",
+      "he_title": "משנה תורה, הלכות שאר אבות הטומאות",
+      "chapters": 20
+    },
+    {
+      "title": "Mishneh Torah, Defilement of Foods",
+      "he_title": "משנה תורה, הלכות טומאת אוכלים",
+      "chapters": 16
+    },
+    {
+      "title": "Mishneh Torah, Vessels",
+      "he_title": "משנה תורה, הלכות כלים",
+      "chapters": 28
+    },
+    {
+      "title": "Mishneh Torah, Immersion Pools",
+      "he_title": "משנה תורה, הלכות מקואות",
+      "chapters": 11
+    },
+    {
+      "title": "Mishneh Torah, Damages to Property",
+      "he_title": "משנה תורה, הלכות נזקי ממון",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Theft",
+      "he_title": "משנה תורה, הלכות גניבה",
+      "chapters": 9
+    },
+    {
+      "title": "Mishneh Torah, Robbery and Lost Property",
+      "he_title": "משנה תורה, הלכות גזילה ואבידה",
+      "chapters": 18
+    },
+    {
+      "title": "Mishneh Torah, One Who Injures a Person or Property",
+      "he_title": "משנה תורה, הלכות חובל ומזיק",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Murderer and the Preservation of Life",
+      "he_title": "משנה תורה, הלכות רוצח ושמירת נפש",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, Sales",
+      "he_title": "משנה תורה, הלכות מכירה",
+      "chapters": 30
+    },
+    {
+      "title": "Mishneh Torah, Ownerless Property and Gifts",
+      "he_title": "משנה תורה, הלכות זכייה ומתנה",
+      "chapters": 12
+    },
+    {
+      "title": "Mishneh Torah, Neighbors",
+      "he_title": "משנה תורה, הלכות שכנים",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Agents and Partners",
+      "he_title": "משנה תורה, הלכות שלוחין ושותפין",
+      "chapters": 10
+    },
+    {
+      "title": "Mishneh Torah, Slaves",
+      "he_title": "משנה תורה, הלכות עבדים",
+      "chapters": 9
+    },
+    {
+      "title": "Mishneh Torah, Hiring",
+      "he_title": "משנה תורה, הלכות שכירות",
+      "chapters": 13
+    },
+    {
+      "title": "Mishneh Torah, Borrowing and Deposit",
+      "he_title": "משנה תורה, הלכות שאלה ופיקדון",
+      "chapters": 8
+    },
+    {
+      "title": "Mishneh Torah, Creditor and Debtor",
+      "he_title": "משנה תורה, הלכות מלווה ולווה",
+      "chapters": 27
+    },
+    {
+      "title": "Mishneh Torah, Plaintiff and Defendant",
+      "he_title": "משנה תורה, הלכות טוען ונטען",
+      "chapters": 16
+    },
+    {
+      "title": "Mishneh Torah, Inheritances",
+      "he_title": "משנה תורה, הלכות נחלות",
+      "chapters": 11
+    },
+    {
+      "title": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction",
+      "he_title": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם",
+      "chapters": 26
+    },
+    {
+      "title": "Mishneh Torah, Testimony",
+      "he_title": "משנה תורה, הלכות עדות",
+      "chapters": 22
+    },
+    {
+      "title": "Mishneh Torah, Rebels",
+      "he_title": "משנה תורה, הלכות ממרים",
+      "chapters": 7
+    },
+    {
+      "title": "Mishneh Torah, Mourning",
+      "he_title": "משנה תורה, הלכות אבל",
+      "chapters": 14
+    },
+    {
+      "title": "Mishneh Torah, Kings and Wars",
+      "he_title": "משנה תורה, הלכות מלכים ומלחמות",
+      "chapters": 12
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f4ed" />
+  <meta name="description" content="A bilingual, chapter-by-chapter reader for the Mishneh Torah, with a simpler Hebrew and English edition for children." />
+  <title>Torah for Every Reader · תורה לכל גיל</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand" aria-label="Torah for Every Reader">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div class="brand-names"><b>Torah for Every Reader</b><span lang="he" dir="rtl">תורה לכל גיל</span></div>
+    </div>
+    <div class="header-note">A bilingual learning library <span class="header-spark" aria-hidden="true">✳</span> Work in progress</div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="eyebrow">READ • UNDERSTAND • EXPLORE</div>
+      <h1 id="page-title">Ancient wisdom,<br /><em>clearer words.</em></h1>
+      <p>Read the original Hebrew, a simpler Hebrew explanation with niqqud, or an English version for younger learners. Explore each halacha at your own pace.</p>
+      <div class="hero-ornament" aria-hidden="true">א ב ג</div>
+    </section>
+
+    <section class="reader-shell" aria-labelledby="reader-title">
+      <div class="chapter-topline"><span class="section-kicker">YOUR READING DESK</span><span id="chapter-progress" class="progress-badge">Loading library…</span></div>
+      <div class="chapter-heading">
+        <div><h2 id="reader-title">Browse the Mishneh Torah</h2><p id="reader-subtitle" class="muted">Select a book and chapter to begin.</p></div>
+      </div>
+      <div class="selectors">
+        <label class="select-field">Book <select id="book-select" aria-label="Choose a book"></select></label>
+        <label class="select-field select-chapter">Chapter <select id="chapter-select" aria-label="Choose a chapter"></select></label>
+      </div>
+      <div class="reading-controls">
+        <div class="mode-tabs" role="group" aria-label="Choose reading version">
+          <button type="button" data-mode="kids_hebrew" class="active">עברית קלה</button>
+          <button type="button" data-mode="kids_english">Kids English</button>
+          <button type="button" data-mode="original_hebrew">מקור</button>
+          <button type="button" data-mode="compare">Side by side</button>
+        </div>
+        <div class="display-tools">
+          <label class="niqqud-toggle" title="Show or hide Hebrew vowel marks"><input type="checkbox" id="niqqud" checked /> Niqqud</label>
+          <button id="smaller" class="text-tool" type="button" aria-label="Decrease reading text size">A−</button>
+          <button id="larger" class="text-tool" type="button" aria-label="Increase reading text size">A+</button>
+        </div>
+      </div>
+      <div class="reading-meta">
+        <div id="version-progress" class="version-progress" aria-live="polite"></div>
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="text-search" type="search" placeholder="Search within this chapter" aria-label="Search within this chapter" /></label>
+      </div>
+      <div id="reader-status" class="reader-status" role="status"></div>
+      <div id="segments" class="segments"></div>
+      <nav class="chapter-nav" aria-label="Chapter navigation">
+        <button id="previous-chapter" type="button">← Previous chapter</button>
+        <a id="sefaria-chapter" href="https://www.sefaria.org" target="_blank" rel="noopener noreferrer">View source on Sefaria ↗</a>
+        <button id="next-chapter" type="button">Next chapter →</button>
+      </nav>
+    </section>
+    <aside class="disclaimer"><b>A note for readers</b> · The kid-friendly passages are educational simplifications, not literal translations or practical halachic rulings. They may contain AI errors and should be reviewed by a qualified educator. The original Hebrew and its source are always available for comparison.</aside>
+  </main>
+  <footer class="site-footer"><span>Torah for Every Reader</span><span>Original texts attributed to their named editions and linked to Sefaria.</span></footer>
+</body>
+</html>
